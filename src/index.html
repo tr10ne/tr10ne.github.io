@@ -9,18 +9,22 @@
     <meta name="robots" content="index, follow">
     <meta property="og:title" content="Это моя первая страница...">
     <title>Андрей Браун - веб-разработчик</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">Андрей Браун</div>
-            <div class="menu"><ul>
+            <div class="menu">
+                <ul>
                 <li>Обо мне</li>
                 <li>Услуги</li>
                 <li>Кейсы</li>
                 <li>Прайс</li>
                 <li>Отзывы</li>
-                <li>Контакты</li></ul>
+                <li>Контакты</li>
+                </ul>
             </div>
         </nav>
     </header>
@@ -34,7 +38,7 @@
         <div class="about_me">
             <h2>Обо мне</h2>
             <hr>
-            <img src="/src/img/foto.jpg" alt="Здесь должно быть фото">
+            <img src="../src/img/boy_about_me.png" alt="Здесь должно быть фото">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit in vero voluptatibus perspiciatis eveniet inventore culpa, quasi quibusdam est, consequuntur iure perferendis eligendi ea accusantium libero. Iste cupiditate quisquam quos!</p>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit in vero voluptatibus perspiciatis eveniet inventore culpa, quasi quibusdam est, consequuntur iure perferendis eligendi ea accusantium libero. Iste cupiditate quisquam quos!</p>
             <input type="submit" value="Скачать резюме">
@@ -43,43 +47,43 @@
             <h2>Что я умею</h2>
             <hr>
             <div class="web-design">
-                <img src="/src/img/web-design.svg" alt="Веб-дизайн">
+                <img src="../src/img/notebook.png" alt="Веб-дизайн">
                 <h3>Веб-дизайн</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae harum perferendis illo impedit inventore delectus perspiciatis praesentium. Eligendi nemo mollitia illo vel necessitatibus sunt et neque iste sequi voluptas.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Saepe cum quos dolorem!</p>
             </div>
             <div class="dev">
-                <img src="/src/img/development.svg" alt="Разработка">
+                <img src="../src/img/slash.png" alt="Разработка">
                 <h3>Разработка</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae harum perferendis illo impedit inventore delectus perspiciatis praesentium. Eligendi nemo mollitia illo vel necessitatibus sunt et neque iste sequi voluptas.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum consectetur autem nihil!</p>
             </div>
             <div class="seo">
-                <img src="/src/img/seo.svg" alt="СЕО-Оптимизация">
+                <img src="../src/img/rocket.png" alt="СЕО-Оптимизация">
                 <h3>СЕО-Оптимизация</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae harum perferendis illo impedit inventore delectus perspiciatis praesentium. Eligendi nemo mollitia illo vel necessitatibus sunt et neque iste sequi voluptas.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolorem tenetur fugit!</p>
             </div>
             <div class="marketing">
-                <img src="/src/img/marketing.svg" alt="Маркетинг">
+                <img src="../src/img/microfon.png" alt="Маркетинг">
                 <h3>Маркетинг</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta recusandae harum perferendis illo impedit inventore delectus perspiciatis praesentium. Eligendi nemo mollitia illo vel necessitatibus sunt et neque iste sequi voluptas.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum fuga rerum natus?</p>
             </div>
         </div>
         <div class="case">
             <h2>Кейсы</h2>
             <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque facilis consequatur autem corporis ab modi similique sunt, doloremque officiis iste ex, ullam omnis? Dignissimos delectus aut ab, alias velit asperiores.</p>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Architecto facilis quis illo obcaecati cum. Vero odit ipsum culpa!</p>
             <div class="carousel">
-                <img src="/src/img/slide.jpg" alt="Кейс №1">
+                <img src="../src/img/case.jpg" alt="Кейс №1">
                 <div class="nav">
-                    <p>CLIENT:</p>
+                    <span>CLIENT:</span>
                     <p>Какая-то компания</p>
-                    <p>WEBSITE:</p>
+                    <span>WEBSITE:</span>
                     <p>https://www.somedomain.com</p>
-                    <input type="submit" value="VISIT LIVE SITE">
                 </div>
                 <div class="desc">
-                    <h4>Название компании</h4>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, ut at suscipit tempora eaque est repudiandae iusto sunt distinctio ducimus fugit veritatis quam maxime numquam minus. Facilis vitae enim nam?</p>
+                    <h4>Название проекта</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum officiis sed vero corporis tempora laboriosam nesciunt architecto. Provident quo ea eum magni asperiores hic molestias, esse voluptatibus ad voluptatum omnis laborum praesentium, unde modi nemo corporis eos similique numquam cum totam quas ipsum tenetur. Incidunt placeat maiores nemo quas sunt eveniet?</p>
                 </div>
+                <input type="submit" value="VISIT LIVE SITE">
             </div>
         </div>
         <div class="calculate">
@@ -107,39 +111,40 @@
                     <option value="mobile">Только mobile</option>
                     <option value="mobile">Mobile & Desktop</option>
                 </select>
+                <div class="final-result">
+                <p>Сроки <span>0</span></p>
+                <p>Стоимость <span>0</span></p>
+                </div>
             </form>
-            <hr>
-            <p>Сроки <span>0</span></p>
-            <p>Стоимость <span>0</span></p>
         </div>
         <div class="statistics">
             <h2>Немного статистики</h2>
             <hr>
             <div class="happy">
-                <img src="/src/img/happy.svg" alt="Счастливые клиенты">
-                <p>120</p>
+                <img src="../src/img/smile.png" alt="Счастливые клиенты">
+                <span>120</span>
                 <p>Счастливых клиентов</p>
             </div>
             <div class="hours">
-                <img src="/src/img/hours.svg" alt="Часы работы">
-                <p>4 600</p>
+                <img src="../src/img/hours.png" alt="Часы работы">
+                <span>4,600</span>
                 <p>Часов работы</p>
             </div>
             <div class="projects">
-                <img src="/src/img/projects.svg" alt="Проекты">
-                <p>340</p>
+                <img src="../src/img/projects.png" alt="Проекты">
+                <span>340</span>
                 <p>Проектов завершено</p>
             </div>
             <div class="awards">
-                <img src="/src/img/awards.svg" alt="Награды">
-                <p>23</p>
+                <img src="../src/img/awards.png" alt="Награды">
+                <span>23</span>
                 <p>Наград получено</p>
             </div>
         </div>
         <div class="reviews">
             <h2>Отзывы</h2>
             <hr>
-            <img src="/src/img/reviews.jpg" alt="Отзыв">
+            <img src="../src/img/reviews.png" alt="Отзыв">
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia officiis praesentium voluptas blanditiis debitis nulla voluptatem temporibus consectetur deserunt, veritatis in libero? Natus enim, debitis inventore tempore a cumque voluptas.</p>
             <br>
             <p><b>Михаил</b>, Ген Директор ПАО "Газпром".</p>
@@ -155,37 +160,40 @@
             <h2>Мои контакты</h2>
             <hr>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum explicabo beatae culpa ullam voluptatem unde quia, ad sit commodi error est cum enim eligendi sed a, sapiente ipsa, voluptatum amet?</p>
-            <div class="geo">
-                <img src="/src/img/geo.svg" alt="Адрес">
-                <p>Санкт-Петербург<br>Невский проспект 11</p> 
+            <div class="icon">
+                <div class="geo">
+                    <img src="../src/img/geo.png" alt="Адрес">
+                    <p>Санкт-Петербург<br>Невский проспект 11</p> 
+                </div>
+                <div class="mail">
+                    <img src="../src/img/mail.png" alt="Почта">
+                    <p>info@companyname.com</p> 
+                </div>
+                <div class="phone">
+                    <img src="../src/img/phone.png" alt="Телефон">
+                    <p>+7 (999) 99-99-99</p> 
+                </div>
             </div>
-            <div class="mail">
-                <img src="/src/img/mail.svg" alt="Почта">
-                <p>info@companyname.com</p> 
-            </div>
-            <div class="phone">
-                <img src="/src/img/phone.svg" alt="Телефон">
-                <p>+7 (999) 99-99-99</p> 
-            </div>
+            <div class="message">
             <h3>Оставьте мне сообщение</h3>
             <form action="message">
                 <input type="text" placeholder="Имя">
                 <input type="text" placeholder="EMail">
-                <textarea name="message" id="send_message" cols="30" rows="10" placeholder="Сообщение">
-                </textarea>
+                <textarea name="message" id="send_message" cols="30" rows="10" placeholder="Сообщение"></textarea>
                 <input type="submit" value="Отправить">
             </form>
+            </div>
             <div class="social">
-                <a href="facebook.com"><img src="/src/img/facebook.svg" alt="Facebook"></a>
-                <a href="twitter.com"><img src="/src/img/twitter.svg" alt="Twitter"></a>
-                <a href=""><img src="/src/img/ball.svg" alt="Ball"></a>
-                <a href=""><img src="/src/img/cat.svg" alt="Cat"></a>
-                <a href="instagram.com"><img src="/src/img/instagram.svg" alt="Instagram"></a>
-                <a href="in"><img src="/src/img/in.svg" alt="In"></a>
+                <a href="facebook.com"><img src="../src/img/facebook.png" alt="Facebook"></a>
+                <a href="twitter.com"><img src="../src/img/twitter.png" alt="Twitter"></a>
+                <a href=""><img src="../src/img/ball.png" alt="Ball"></a>
+                <a href=""><img src="../src/img/cat.png" alt="Cat"></a>
+                <a href="instagram.com"><img src="../src/img/instagram.png" alt="Instagram"></a>
+                <a href="in"><img src="../src/img/in.png" alt="In"></a>
             </div>
         </div> 
         <div class="map">
-            <script></script>
+            <div style="overflow:hidden;width: 100%;position: relative;"><iframe width="100%" height="384" src="https://maps.google.com/maps?width=1024&amp;height=384&amp;hl=en&amp;q=Tula+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)&amp;ie=UTF8&amp;t=&amp;z=11&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><div style="position: absolute;width: 80%;bottom: 10px;left: 0;right: 0;margin-left: auto;margin-right: auto;color: #000;text-align: center;"><small style="line-height: 1.8;font-size: 2px;background: #fff;">Powered by <a href="https://embedgooglemaps.com/fr/">embedgooglemaps FR</a> & <a href="http://www.mysmiley.net/free-sad-smileys.php">sad smileys</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div>
         </div>
         <div class="copyright">
             <p>Copyright © 2021 Андрей Браун Design by Web</p>
