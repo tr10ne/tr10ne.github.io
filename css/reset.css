@@ -1,0 +1,18 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus-visible {
+  outline: 3px solid #9c0646;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+a {
+  text-decoration: none;
+}
