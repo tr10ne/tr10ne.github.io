@@ -1,14 +1,14 @@
 .page {
     max-width: 1920px;
-    min-height: 300vh;
+    min-height: 100vh;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    position: relative;
     overflow: hidden;
+    position: relative;
 }
 
 .head {
@@ -96,12 +96,25 @@
 
 .basket-logo {
     width: 100%;
-    height: 100%;
+    min-height: 100%;
 }
 
 .basket-logo__icon {
     opacity: .988;
     fill: #9c0646;
+}
+
+.main {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.first-block {
+    width: 100%;
+    min-height: 1080px;
 }
 
 .decor-sweet {
@@ -504,6 +517,7 @@
     min-height: 121px;
     right: 220px;
     top: 1203px;
+    z-index: -1;
 }
 
 .decor-malinka_2 {
@@ -511,6 +525,7 @@
     min-height: 71px;
     right: -30px;
     top: 1228px;
+    z-index: -1;
 }
 
 .decor-malinka_3 {
@@ -518,6 +533,380 @@
     min-height: 36px;
     right: 59px;
     top: 1450px;
+    z-index: -1;
+}
+
+.decor-malinka-4 {
+    position: absolute;
+    background-image: url('../img/malinka.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 91px;
+    height: 108px;
+    left: -39px;
+    top: 2267px;
+}
+
+.advant-block {
+    margin-top: 143px;
+    width: 1420px;
+    min-height: 811px;
+    position: relative;
+}
+
+.advant-block__title {
+    color: rgb(68, 66, 81);
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 61px;
+    text-align: center;
+}
+
+.advant-block__item {
+    width: 500px;
+    min-height: 500px; 
+    margin: 0 auto;
+    position: relative;
+}
+
+.advant-block__center-img {
+    display: flex;
+    width: 500px;
+    min-height: 500px; 
+    box-sizing: border-box;
+    border: 5px solid rgb(253, 229, 234);
+    border-radius: 50%;
+    margin: 180px auto 0px;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.advant-block__img-item {
+    width: 344px;
+    min-height: 344px;
+    border-radius: 50%;
+    box-shadow: 0px 11px 80px 0px rgba(0, 0, 0, 0.2);
+}
+
+.ellipse {
+    display: block;
+    position: absolute;
+    width: 30px;
+    min-height: 30px;
+    background-color: #9C0746;
+    border-radius: 50%; 
+}
+
+.ellipse-1 {
+    top: 76px;
+    left: 45px;
+}
+
+.ellipse-2 {
+    top: 76px;
+    right: 45px;
+}
+
+.ellipse-3 {
+    bottom: 76px;
+    left: 45px;
+}
+
+.ellipse-4 {
+    bottom: 76px;
+    right: 45px;
+}
+
+.advant-block__icon {
+    width: 289px;
+    min-height: 100px;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    position: absolute;
+    color: rgb(68, 66, 81);
+    font-family: 'OpenSans-Regular', sans-serif;;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 125%;
+}
+
+.product {
+    top: 151px;
+    left: 170px;
+}
+
+.svg-img {
+    width: 80px;
+    height: 80px;
+    display: block;
+}
+
+.advant-block__icon::before {
+    content: '';
+    display: block;
+    width: 100px;
+    min-height: 100px;
+    position: absolute;
+    border-radius: 50%;
+    border: 1px solid rgb(255, 213, 221);
+    box-shadow: 0px 15px 40px 0px rgba(254, 195, 207, 0.5);
+    background-color: rgb(253, 229, 234);
+    z-index: -1;
+}
+
+.product::before {
+    top: 0px;
+    left: -23px;
+} 
+
+.equipment::before {
+    top: 0px;
+    right: -21px;
+} 
+
+.price::before {
+    top: 0px;
+    right: -20px;
+}
+
+.program::before {
+    top: 0px;
+    right: -21px;
+}
+
+.konditer::before {
+    top: 0px;
+    left: -18px;
+}
+
+.recipes::before {
+    top: 0px;
+    left: -20px;
+}
+
+.icon-product {
+    opacity: .973;
+    fill: #9b0646;
+}
+
+.equipment {
+    top: 151px;
+    right: 170px;
+}
+
+.icon-equipment-1 {
+    opacity: .991;
+    fill: #9c0745;
+}
+
+.icon-equipment-2 {
+    opacity: .905;
+    fill: #9c0746;
+}
+
+.icon-equipment-3 {
+    opacity: 1;
+    fill: #9b0745;
+}
+
+.reverse {
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    text-align: end;
+}
+
+.price {
+    top: 431px;
+    right: 0px;
+}
+
+.price__img {
+    width: 60px;
+    height: 60px;
+}
+
+.icon-price-1 {
+    opacity: .998;
+    fill: #9c0645;
+}
+
+.icon-price-2 {
+    opacity: .926;
+    fill: #9c0646; 
+}
+
+.icon-price-3 {
+    opacity: .915;
+    fill: #9c0645;
+}
+
+.icon-price-4 {
+    opacity: .924;
+    fill: #9c0645; 
+}
+
+.program {
+    bottom: 0px;
+    right: 170px;
+}
+
+.icon-program-1 {
+    opacity: .859;
+    fill: #9b0645;
+}
+
+.icon-program-2 {
+    opacity: .863;
+    fill: #9c0646; 
+}
+
+.icon-program-3 {
+    opacity: .838;
+    fill: #9c0645;
+}
+
+.icon-program-4 {
+    opacity: .86;
+    fill: #9b0645; 
+}
+
+.konditer {
+    bottom: 0px;
+    left: 170px;
+}
+
+.icon-konditer {
+    opacity: .912;
+    fill: #9c0646;
+}
+
+.recipes {
+    top: 431px;
+    left: 0px;
+}
+
+.icon-recipes-1 {
+    opacity: .99;
+    fill: #9c0646;
+}
+
+.icon-recipes-2 {
+    opacity: .917;
+    fill: #9c0646;
+}
+
+.icon-recipes-3 {
+    opacity: .903;
+    fill: #9b0646;
+}
+
+.icon-recipes-4 {
+    opacity: .906;
+    fill: #9c0645;
+}
+
+.novelty-block {
+    margin-top: 180px;
+    width: 1471px;
+    min-height: 786px;
+}
+
+.novelty-block__title {
+    color: rgb(68, 66, 81);
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 61px;
+    text-align: center;
+}
+
+.novelty-block__catalog {
+    margin-top: 79px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.novelty-block__item {
+    width: 395px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.novelty-block__name {
+    color: rgb(156, 7, 70);
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 26px;
+    font-weight: 600;
+    line-height: 32px;
+    margin: 13px 0px 12px 0px;
+}
+
+.novelty-block__desc {
+    display: block;
+    width: 350px;
+    color: rgb(68, 66, 81);
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 19px;
+    text-align: center;
+}
+
+.novelty-block__price {
+    margin: 19px 0px 29px 0px;
+    color: rgb(156, 7, 70);
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+}
+
+.novelty-block__btn {
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 20px 40px 0px rgba(66, 2, 29, 0.31);
+    background: linear-gradient(43.25deg, rgb(156, 7, 70) -15.181%, rgb(180, 78, 121) 128.622%);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 105.2%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.novelty-block__img {
+    width: 395px;
+    height: 395px;
+    object-fit: contain;
+}
+
+.novelty-block__btn:hover {
+    scale: 1.05;
+    transition: .5s;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-weight: 600;
+    color: #9b0645;
+    background-position: -200px 0px;
+    border: 1px solid #9b0645;
+}
+
+.novelty-block__btn:active {
+    scale: 0.9;
+}
+
+.choose:focus-visible, .novelty-block__btn:focus-visible {
+    outline: 3px solid black;
 }
 
 .foot {
@@ -579,7 +968,6 @@
     font-weight: 400;
     line-height: 24px;
     font-size: 20px;
-    line-height: 24px;
     transition: .5s;
 }
 
@@ -593,6 +981,6 @@
     transition: .5s;
 }
 
-.menu__link_foot:focus-visible, .logo-link_foot:focus-visible, .phone-number:focus-visible, .choose:focus-visible {
+.menu__link_foot:focus-visible, .logo-link_foot:focus-visible, .phone-number:focus-visible {
     outline: 3px solid #fefffe;
 }
