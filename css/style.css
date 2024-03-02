@@ -812,7 +812,6 @@
 .novelty-block {
     margin-top: 180px;
     width: 1471px;
-    min-height: 786px;
 }
 
 .novelty-block__title {
@@ -907,6 +906,86 @@
 
 .choose:focus-visible, .novelty-block__btn:focus-visible {
     outline: 3px solid black;
+}
+
+.work-block {
+    /* скорректировать */
+    margin: 180px auto 180px;
+    width: 1420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+}
+
+.work-block__title {
+    color: rgb(68, 66, 81);
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 61px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    gap: 81px;
+}
+
+.card {
+    width: 294px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    box-sizing: border-box;
+    border: 1px solid rgb(255, 213, 221);
+    border-radius: 5px;
+    gap: 26px;
+}
+
+.card__num {
+    width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+    box-shadow: 0px 4px 30px 0px rgba(67, 6, 32, 0.3);
+    background: rgb(255, 213, 221);
+    line-height: 100px;
+    text-align: center;
+    color: rgb(180, 78, 121);
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+}
+
+.card__title {
+    color: rgb(180, 78, 121);
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 22px;
+    font-weight: 900;
+    line-height: 27px;
+    padding-top: 6px;
+    white-space: nowrap;
+}
+
+.card__desc {
+    text-align: center;
+    color: rgb(68, 66, 81);
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.decor-malinka-5 {
+    position: absolute;
+    background-image: url('../img/malinka.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 98px;
+    height: 96px;
+    top: 420px;
+    right: 327px; 
 }
 
 .foot {
