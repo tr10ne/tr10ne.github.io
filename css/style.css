@@ -909,8 +909,7 @@
 }
 
 .work-block {
-    /* скорректировать */
-    margin: 180px auto 180px;
+    margin: 180px auto 0px;
     width: 1420px;
     display: flex;
     flex-direction: column;
@@ -986,6 +985,96 @@
     height: 96px;
     top: 420px;
     right: 327px; 
+}
+
+.catalog-block {
+    margin-top: 190px;
+    width: 1530px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+.catalog-block__title {
+    color: rgb(68, 66, 81);
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 61px;
+}
+
+.catalog-block__menu {
+    margin-top: 70px;
+    width: 929px;
+    display: flex;
+    flex-direction: center;
+    align-items: center;
+    gap: 38px;
+}
+
+.menu-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(180, 78, 121);
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+}
+
+.menu-item__pic {
+    width: 100px;
+    min-height: 100px;
+}
+
+.menu-item__img {
+    width: 100%;
+}
+
+.menu-item__name {
+}
+.catalog {
+}
+.catalog__item {
+}
+.item-pic {
+}
+.item-img {
+}
+.item-title {
+}
+.item-desc {
+}
+.item-price {
+}
+.item-btn {
+}
+.catalog__more {
+}
+
+.mixed-berries {
+    position: absolute;
+    background-image: url('../img/mixed-berries.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 465px;
+    min-height: 258px;
+    top: -69px;
+    left: -343px; 
+}
+
+.schokolade {
+    position: absolute;
+    background-image: url('../img/schokolade.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 700px;
+    min-height: 400px;
+    top: -179px;
+    right: -765px;     
 }
 
 .foot {
