@@ -989,8 +989,9 @@
 
 .catalog-block {
     margin-top: 190px;
-    width: 1530px;
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
@@ -1009,11 +1010,13 @@
     width: 929px;
     display: flex;
     align-items: center;
-    gap: 75px;
+    flex-wrap: wrap;
+    gap: 70px;
 }
 
 .menu-item {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -1179,14 +1182,14 @@
     width: 100%;
     display: grid;
     justify-content: center;
-    grid-template-columns: repeat(auto-fit, minmax(345px, 345px));
-    grid-auto-flow: row;
+    grid-template-columns: repeat(auto-fit, 345px);
     gap: 100px 191px;
 }
 
 .catalog__item {
     width: 345px;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
 }
@@ -1310,7 +1313,7 @@
     width: 465px;
     min-height: 258px;
     top: -69px;
-    left: -343px; 
+    left: -175px; 
 }
 
 .schokolade {
@@ -1321,8 +1324,198 @@
     width: 700px;
     min-height: 400px;
     top: -179px;
-    right: -765px;     
+    right: -605px;     
 }
+
+.offer-block {
+    margin-top: 180px;
+    width: 100%;
+    background: linear-gradient(126.55deg, rgb(252, 164, 201) -7.732%,rgb(254, 113, 173) 55.335%,rgb(180, 78, 121) 103.73%);
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 42px;
+}
+
+.offer-block__box {
+    width: 831px;
+    height: 831px;
+    margin: 37px 0px 19px 0px;
+}
+
+.offer-block__title {
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 61px;
+    letter-spacing: 0%;
+    text-align: left;
+    display: block;
+    width: 499px;
+    color: white;
+    margin: 180px 0px 40px 250px; 
+}
+
+.title-color {
+    color: #A0114E;
+}
+
+.offer-block__desc {
+    color: rgb(255, 255, 255);
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 30px;
+    width: 499px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+.callback {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    margin-left: 250px;
+}
+
+.callback__btn {
+    margin-top: 34px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 20px 40px 0px rgba(66, 2, 29, 0.31);
+    background: linear-gradient(43.25deg, rgb(156, 7, 70) -15.181%, rgb(180, 78, 121) 128.622%);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 105.2%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.callback__btn:hover {
+    scale: 1.05;
+    transition: .5s;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-weight: 600;
+    color: #9b0645;
+    background-position: -200px 0px;
+    border: 1px solid #9b0645;
+    background-color: white;
+}
+
+.callback__btn:active {
+    scale: 0.9;
+}
+
+.callback__btn:focus-visible {
+    outline: 3px solid black;
+}
+
+.offer-block__pic {
+    width: 100%;
+    height: 100%;
+}
+
+.offer-block__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.decor-mint {
+    position: absolute;
+    background-image: url('../img/mint.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    height: 138px;
+    top: -122px;
+    left: -66px; 
+}
+
+.decor-mint-blur {
+    position: absolute;
+    background-image: url('../img/mint-blur.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 132px;
+    height: 138px;
+    top: -67px;
+    right: -23px; 
+}
+
+.callback__name,
+.callback__phone {
+    appearance: none;
+    width: 255px;
+    height: 29px;
+    background-color: transparent;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid white;
+    padding: 0px 5px 0px 5px;
+}
+
+.callback__name:focus,
+.callback__phone:focus {
+    outline: none;
+}
+
+.callback__name::placeholder,
+.callback__phone::placeholder {
+    color: rgb(255, 255, 255);
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 27px;
+}
+
+.callback__name:focus::placeholder,
+.callback__phone:focus::placeholder,
+.callback__name:focus ~ .callback__svg,
+.callback__phone:focus ~ .callback__svg {
+    opacity: .3;
+}
+
+.callback__ico {
+    opacity: .693;
+    fill: #fefffe;
+}
+
+.callback__ico-1 {
+    opacity: .925;
+    fill: #fefffe;
+}
+
+.callback__ico-2 {
+    opacity: .9;
+    fill: #fefffe;    
+}
+
+.callback__ico-3 {
+    opacity: .766;
+    fill: #fefffe;
+}
+
+.label {
+    position: relative;
+}
+
+.callback__svg {
+    width: 25px;
+    height: 25px;
+    position: absolute;
+    right: 0px;
+}
+
+
 
 .foot {
     padding: 110px 0px 20px 0px;
