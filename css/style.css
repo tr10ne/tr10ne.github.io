@@ -1721,7 +1721,13 @@
 }
 
 .social-block {
+    width: 100%;
     margin-top: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+    position: relative;
 }
 
 .social-block__title {
@@ -1732,7 +1738,248 @@
     line-height: 61px;
 }
 
+.flex-block {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.flex-block__item {
+    width: 460px;
+    height: 306px;
+    border-radius: 10px;
+    box-shadow: 0px 14px 40px 0px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
+
+.flex-block__img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border-radius: 10px;
+}
+
+.social-block__btn {
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 20px 40px 0px rgba(66, 2, 29, 0.31);
+    background: linear-gradient(43.25deg, rgb(156, 7, 70) -15.181%, rgb(180, 78, 121) 128.622%);
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 105.2%;
+    cursor: pointer;
+    transition: .5s;
+}
+    
+.social-block__btn:hover {
+    scale: 1.05;
+    transition: .5s;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-weight: 600;
+    color: #9b0645;
+    background-position: -200px 0px;
+    border: 1px solid #9b0645;
+}
+
+.social-block__btn:active {
+    scale: 0.9;
+}
+
+.social-block__btn:focus-visible {
+    outline: 3px solid black;
+}
+
+.decor-cocoa-in-wooden {
+    position: absolute;
+    background-image: url('../img/cocoa-in-wooden.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 735px;
+    height: 414px;
+    top: 316px;
+    right: -510px; 
+    z-index: -1;
+}
+
+.order-block {
+    margin-top: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+}
+
+.order-block__title {
+    color: rgb(68, 66, 81);
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 61px;
+}
+
+.order-block__form-block {
+    width: 940px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
+    background: rgb(255, 213, 221);
+    background-image: url('../img/makaroon-background.webp');
+    background-repeat: no-repeat;
+    background-size: 584px 510px;
+    background-position: top 60px right -30px;
+}
+
+.order-block__form {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 68px 68px 82px 68px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 50px 0px rgba(0, 0, 0, 0.2);
+    background: rgb(255, 255, 255);
+    position: relative;
+}
+
+.order-block__form::before {
+    content: 'Sweet Paradise';
+    display: inline-block;
+    position: absolute;
+    width: 458px;
+    height: 81px;
+    color: rgb(156, 7, 70);
+    font-family: 'Sail-Regular', sans-serif;
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 92px;
+    rotate: -90deg;
+    top: 255px;
+    left: -345px;
+}
+
+.order-block__form__title {
+    color: rgb(156, 7, 70);
+    font-family: 'Montserrat-Bold', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 37px;
+}
+
+.order-block__form__desc {
+    margin-top: 18px;
+    width: 246px;
+    color: rgb(68, 66, 81);
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 125.6%;
+}
+
+.order-block__name,
+.order-block__phone {
+    margin-top: 45px;
+    width: 343px;
+    height: 60px;
+    border: 1px solid rgb(156, 7, 70);
+    border-radius: 40px;
+    padding: 0px 30px;
+    color: rgb(68, 66, 81);
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 125.6%;
+}
+
+.order-block__phone {
+    margin-top: 25px;
+}
+
+.order-block__name:focus::placeholder,
+.order-block__phone:focus::placeholder {
+    opacity: .3;
+}
+
+.order-block__btn {
+    margin-top: 25px;
+    width: 343px;
+    height: 60px;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 20px 40px 0px rgba(66, 2, 29, 0.31);
+    background: linear-gradient(43.25deg, rgb(156, 7, 70) -16.541%,rgb(180, 78, 121) 126.798%);
+    background-repeat: no-repeat;
+    color: rgb(255, 255, 255);
+    font-family: 'Montserrat-Regular', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 105.2%;
+    cursor: pointer;
+    transition: .5s;
+}
+
+.order-block__btn:hover {
+    scale: 1.05;
+    transition: .5s;
+    font-family: 'Montserrat-SemiBold', sans-serif;
+    font-weight: 600;
+    color: #9b0645;
+    background-position: -350px 0px;
+    border: 1px solid #9b0645;
+}
+
+.order-block__btn:active {
+    scale: 0.9;
+}
+
+.order-block__btn:focus-visible {
+    outline: 3px solid black;
+}
+
+
+.personal {
+    margin-top: 42px;
+    color: rgb(68, 66, 81);
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 125.6%;
+}
+
+.decor-grated-chocolate {
+    position: absolute;
+    background-image: url('../img/grated-chocolate.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 600px;
+    height: 277px;
+    top: 451px;
+    left: 306px;
+    z-index: -1; 
+}
+
+.decor-grated-chocolate-wb {
+    position: absolute;
+    background-image: url('../img/grated-chocolate-wb.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 500px;
+    height: 375px;
+    top: 418px;
+    right: 325px;
+    z-index: -1;  
+}
+
 .foot {
+    margin-top: 180px;
     padding: 110px 0px 20px 0px;
     width: 100%;
     min-height: 246px; 
