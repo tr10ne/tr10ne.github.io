@@ -1515,7 +1515,222 @@
     right: 0px;
 }
 
+.reviews-block {
+    margin-top: 180px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 90px;
+    position: relative;
+}
 
+.reviews-block__title {
+    color: rgb(68, 66, 81);
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 61px;
+}
+
+.grid-block {
+    display: grid;
+    grid-template-columns: 460px 440px 440px;
+    grid-template-rows: 102px 102px 102px 40px 102px 102px 102px 40px 102px 62px 40px 102px;
+    justify-content: center;
+    column-gap: 40px;
+    grid-auto-flow: dense;
+    grid-template-areas:
+        "a d f"
+        "a d f"
+        "a d f"
+        ". d ."
+        "b d g"
+        "b d g"
+        "b d g"
+        ". . g"
+        "c e g"
+        "c e g"
+        "c e ."
+        "c e h";
+}
+
+.grid-block__item_1 {
+    grid-area: a;
+}
+
+.grid-block__item_2 {
+    grid-area: b;
+}
+
+.grid-block__item_3 {
+    grid-area: c;
+}
+
+.grid-block__item_4 {
+    grid-area: d;
+}
+
+.grid-block__item_5 {
+    grid-area: e;
+}
+
+.grid-block__item_6 {
+    grid-area: f;
+}
+
+.grid-block__item_7 {
+    grid-area: g;
+}
+
+.video-review-more_8 {
+    grid-area: h
+}
+
+.grid-block__item {
+    width: 100%;
+    height: 100%;
+    box-shadow: 0px 14px 40px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    position: relative;
+}
+
+.grid-block__item::before {
+    content: '';
+    display: block;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25);
+    background: rgb(255, 255, 255);
+    border-radius: 50%;
+}
+
+.grid-block__item_1::before,
+.grid-block__item_2::before,
+.grid-block__item_3::before {
+    top: 113px;
+    left: 190px;
+}
+
+.grid-block__item_4::before {
+    top: 286px;
+    left: 180px;
+}
+
+.grid-block__item_5::before,
+.grid-block__item_6::before {
+    top: 113px;
+    left: 180px;
+}
+
+.grid-block__item_7::before {
+    top: 216px;
+    left: 180px;
+}
+
+.grid-block__item::after {
+    content: '';
+    display: block;
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    border-radius: 5px;
+    rotate: 45deg;
+    background: linear-gradient(43.25deg, rgb(156, 7, 70) -4.736%,rgb(180, 78, 121) 142.635%);
+    clip-path: polygon(100% 0, 100% 100%, 85% 95%, 5% 15%, 0 0);
+}
+
+.grid-block__item_1::after,
+.grid-block__item_2::after,
+.grid-block__item_3::after {
+    top: 135px;
+    left: 205px;
+}
+
+.grid-block__item_4::after {
+    top: 310px;
+    left: 195px;
+}
+
+.grid-block__item_5::after,
+.grid-block__item_6::after {
+    top: 135px;
+    left: 195px;
+}
+
+.grid-block__item_7::after {
+    top: 240px;
+    left: 195px;
+}
+
+.grid-block__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.video-review-more {
+    justify-self: center;
+    align-self: center;
+    width: 440px;
+    height: 100px;
+    color: #9C0746;
+    font-family: 'OpenSans-Regular', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 41px;
+    background-color: white;
+    border-radius: 10px;
+    border-color: #B44E79;
+    cursor: pointer;
+    position: relative;
+    transition: .5s;
+    background-image: linear-gradient(rgb(156, 7, 70),rgb(156, 7, 70));
+    background-repeat: no-repeat;
+    background-position: -440px 0px;
+}
+
+.video-review-more:hover {
+    scale: 1.05;
+    transition: .5s;
+    color: white;
+    background-position: 0px 0px;
+}
+
+.video-review-more:active {
+    scale: .9;
+}
+
+.decor-cacao-1,
+.decor-cacao-2 {
+    position: absolute;
+    background-image: url('../img/cacao.webp');
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 650px;
+    height: 650px;
+    top: 291px;
+    left: -300px; 
+    z-index: -1;
+}
+
+.decor-cacao-2 {
+    left: 1752px; 
+}
+
+.social-block {
+    margin-top: 180px;
+}
+
+.social-block__title {
+    color: rgb(68, 66, 81);
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    line-height: 61px;
+}
 
 .foot {
     padding: 110px 0px 20px 0px;
