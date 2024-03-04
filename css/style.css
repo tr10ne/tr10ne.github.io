@@ -1269,7 +1269,7 @@
     outline: 3px solid black;
 }
 
-.catalog__more {
+.catalog-block__more {
     width: 200px;
     height: 60px;
     border: none;
@@ -1287,7 +1287,7 @@
     margin-top: 90px;
 }
 
-.catalog__more:hover {
+.catalog-block__more:hover {
     scale: 1.05;
     transition: .5s;
     font-family: 'Montserrat-SemiBold', sans-serif;
@@ -1297,11 +1297,11 @@
     border: 1px solid #9b0645;
 }
 
-.catalog__more:active {
+.catalog-block__more:active {
     scale: 0.9;
 }
 
-.catalog__more:focus-visible {
+.catalog-block__more:focus-visible {
     outline: 3px solid black;
 }
 
@@ -1489,17 +1489,17 @@
     fill: #fefffe;
 }
 
-.callback__ico-1 {
+.callback__ico_1 {
     opacity: .925;
     fill: #fefffe;
 }
 
-.callback__ico-2 {
+.callback__ico_2 {
     opacity: .9;
     fill: #fefffe;    
 }
 
-.callback__ico-3 {
+.callback__ico_3 {
     opacity: .766;
     fill: #fefffe;
 }
@@ -1593,6 +1593,13 @@
     box-shadow: 0px 14px 40px 0px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     position: relative;
+    transition: .5s;
+}
+
+.grid-block__item:hover {
+    cursor: pointer;
+    scale: 1.02;
+    transition: .5s;
 }
 
 .grid-block__item::before {
@@ -1604,6 +1611,13 @@
     box-shadow: 0px 4px 60px 0px rgba(0, 0, 0, 0.25);
     background: rgb(255, 255, 255);
     border-radius: 50%;
+    transition: .5s;
+}
+
+.grid-block__item:hover::before {
+    cursor: pointer;
+    transition: .5s;
+    opacity: 0.6;
 }
 
 .grid-block__item_1::before,
@@ -1639,6 +1653,13 @@
     rotate: 45deg;
     background: linear-gradient(43.25deg, rgb(156, 7, 70) -4.736%,rgb(180, 78, 121) 142.635%);
     clip-path: polygon(100% 0, 100% 100%, 85% 95%, 5% 15%, 0 0);
+    transition: .5s;
+}
+
+.grid-block__item:hover::after {
+    cursor: pointer;
+    background: linear-gradient(43.25deg, rgb(19, 156, 7) -4.736%,rgb(86, 180, 78) 142.635%);
+    transition: .5s;
 }
 
 .grid-block__item_1::after,
@@ -1751,6 +1772,12 @@
     border-radius: 10px;
     box-shadow: 0px 14px 40px 0px rgba(0, 0, 0, 0.3);
     cursor: pointer;
+    transition: .5s;
+}
+
+.flex-block__item:hover {
+    scale: 1.1;
+    transition: .5s;
 }
 
 .flex-block__img {
