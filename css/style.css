@@ -1355,7 +1355,6 @@
     background: linear-gradient(126.55deg, rgb(252, 164, 201) -7.732%,rgb(254, 113, 173) 55.335%,rgb(180, 78, 121) 103.73%);
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
     position: relative;
     gap: 42px;
 }
