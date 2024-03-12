@@ -1,7 +1,7 @@
 *, *::after, *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .visually-hidden {
@@ -10,5 +10,5 @@
 }
 
 img {
-	vertical-align: top;
-}
+  vertical-align: top;
+}/*# sourceMappingURL=reset.css.map */

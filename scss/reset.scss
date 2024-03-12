@@ -1,0 +1,14 @@
+*, *::after, *::before {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: fixed;
+  transform: scale(0);
+}
+
+img {
+	vertical-align: top;
+}
