@@ -1,3 +1,21 @@
+*, *::after, *::before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.visually-hidden {
+  position: fixed;
+  -webkit-transform: scale(0);
+      -ms-transform: scale(0);
+          transform: scale(0);
+}
+
+img {
+  vertical-align: top;
+}
+
 @font-face {
   font-family: "Roboto-Medium";
   src: url("../fonts/Roboto-Medium.woff2") format("woff2"), url("../fonts/Roboto-Medium.woff") format("woff");
@@ -25,4 +43,4 @@
   font-weight: 700;
   font-style: normal;
   font-display: swap;
-}/*# sourceMappingURL=fonts.css.map */
+}/*# sourceMappingURL=main.css.map */
