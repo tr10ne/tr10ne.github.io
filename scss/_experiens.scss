@@ -1,0 +1,93 @@
+.experiens {
+    transition: .3s;
+    &:hover::after {
+        transform: scale(2.5);
+        transition: .3s;
+    }
+    &__list {
+        padding: 0px 24px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    &__item {
+        padding: 16px 24px;
+        display: flex;
+        gap: 16px;
+        justify-content: space-between;
+        background-color: #F7F9FC;
+        transition: .3s;
+        &_now {
+            border-radius: 8px 8px 0px 0px;
+            background-color: #F8F2FC;
+        }
+        &:hover {
+            background-color: #F8F2FC;
+        }
+    }
+    &__icon {
+        width: 40px;
+        height: 40px;
+        border-radius: 5px;
+        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, .05);
+    }
+    &__img {
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+        box-shadow: 0px 2px 6px 0px rgba(0, 0, 0, .05);
+    }
+    &__name {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column-reverse;
+        gap: 4px;
+    }
+    &__title {
+        font-family: 'Outfit-Medium', sans-serif;
+        font-weight: 500;
+        font-size: 16px;
+        color: #2E2E48;
+    }
+    &__position {
+        font-family: 'DMSans-Regular', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        color: #79819A;
+    }
+    &__address {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        align-items: end;
+    }
+    &__date{
+        font-family: 'DMSans-Regular', sans-serif;
+        font-weight: 400;
+        font-size: 12px;
+        color: #47516B;
+        &_now {
+            border-radius: 4px;
+            background-color: #EFE2F9;
+            color: #9251F7;
+            display: block;
+            width: 52px;
+            height: 20px;
+            text-align: center;
+            line-height: 20px;
+        }
+    }
+    &__region {
+        font-family: 'DMSans-Regular', sans-serif;
+        font-weight: 400;
+        font-size: 10px;
+        color: #79819A;
+        display: flex;
+        align-items: center;
+        gap: 6.5px;
+    }
+    &__svg {
+        width: 10.5px;
+        height: 13.5px;
+    }
+}

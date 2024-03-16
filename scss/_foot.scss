@@ -1,0 +1,23 @@
+.foot {
+    grid-column: span 2;
+    height: 50px;
+    align-self: end;
+    padding: 0px 180px 0px 60px;
+    color: white;
+    background-color: #79819A;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'DMSans-Regular', sans-serif;
+    font-weight: 400;
+    &__link {
+        font-family: 'DMSans-Regular', sans-serif;
+        font-weight: 400;
+        color: white;
+        text-decoration: none;
+        transition: .3s;
+        &:hover {
+            translate: 0px -5px;
+        }
+    }
+}

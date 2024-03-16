@@ -10,7 +10,7 @@
     <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="stylesheet" href="./dist/css/styles.min.css">
     <title>Promo Site</title>
 </head>
 <body>
@@ -36,7 +36,7 @@
                         </div>
                         <div class="info__contact">
                             <span class="info__span">Email</span>
-                            <a href="mailto:chiara.bianchi@gmail.com">chiara.bianchi@gmail.com</a>
+                            <a class="info__item link" href="mailto:chiara.bianchi@gmail.com">chiara.bianchi@gmail.com</a>
                         </div>
                     </div>
                     <div class="info__block">
@@ -45,7 +45,7 @@
                         </div>
                         <div class="info__contact">
                             <span class="info__span">Website</span>
-                            <a href="https://aldesign.it">https://aldesign.it</a>
+                            <a class="info__item link" href="https://aldesign.it" target="_blank">https://aldesign.it</a>
                         </div>
                     </div>
                     <div class="info__block">
@@ -54,7 +54,7 @@
                         </div>
                         <div class="info__contact">
                             <span class="info__span">Phone</span>
-                            <a href="tel:+393330123765">(+39) 333 0123 765</a>
+                            <a class="info__item link" href="tel:+393330123765">(+39) 333 0123 765</a>
                         </div>
                     </div>
                     <div class="info__block">
@@ -63,7 +63,7 @@
                         </div>
                         <div class="info__contact">
                             <span class="info__span">Addres</span>
-                            <address>Bologna, Italy</address>
+                            <address class="info__item">Bologna, Italy</address>
                         </div>
                     </div>
                 </div>
@@ -74,7 +74,7 @@
                         </div>
                         <div class="info__contact">
                             <span class="info__span">Instagram</span>
-                            <a href="@chiara.designs">@chiara.designs</a>
+                            <a class="info__item link" href="https://instagram.com/chiara.designs" target="_blank">@chiara.designs</a>
                         </div>
                     </div>
                     <div class="info__block">
@@ -83,7 +83,7 @@
                         </div>
                         <div class="info__contact">
                             <span class="info__span">Dribbble</span>
-                            <a href="@chiara-designs">@chiara-designs</a>
+                            <a class="info__item link" href="https://dribbble.com/chiara-designs" target="_blank">@chiara-designs</a>
                         </div>
                     </div>
                     <div class="info__block">
@@ -92,7 +92,7 @@
                         </div>
                         <div class="info__contact">
                             <span class="info__span">Twitter</span>
-                            <a href="@chiaradesigns">@chiaradesigns</a>
+                            <a class="info__item link" href="https://twitter.com/chiaradesigns" target="_blank">@chiaradesigns</a>
                         </div>
                     </div>
                     <div class="info__block">
@@ -101,7 +101,7 @@
                         </div>
                         <div class="info__contact">
                             <span class="info__span">Linkedin</span>
-                            <a href="chiara-bianchi-123">chiara-bianchi-123</a>
+                            <a class="info__item link" href="https://linkedin.com/chiara-bianchi-123" target="_blank">chiara-bianchi-123</a>
                         </div>
                     </div>
                 </div>
@@ -112,7 +112,7 @@
                         </div>
                         <div class="info__lang">
                             <span class="info__span">Native</span>
-                            <p class="lang__name">Italian</p>
+                            <p class="info__item">Italian</p>
                         </div>
                     </div>
                     <div class="info__block">
@@ -121,7 +121,7 @@
                         </div>
                         <div class="info__lang">
                             <span class="info__span">Native</span>
-                            <p class="lang__name">Greek</p>
+                            <p class="info__item">Greek</p>
                         </div>
                     </div>
                     <div class="info__block">
@@ -130,7 +130,7 @@
                         </div>
                         <div class="info__lang">
                             <span class="info__span">Professional working</span>
-                            <p class="lang__name">English</p>
+                            <p class="info__item">English</p>
                         </div>
                     </div>
                     <div class="info__block">
@@ -139,17 +139,17 @@
                         </div>
                         <div class="info__lang">
                             <span class="info__span">Elementary</span>
-                            <p class="lang__name">Spanish</p>
+                            <p class="info__item">Spanish</p>
                         </div>
                     </div>
                 </div>
             </div>
         </header>
         <main class="main">
-            <section class="experiens">
+            <section class="main__block experiens">
                 <h2 class="title">Experiens</h2>
                 <div class="experiens__list">
-                    <div class="experiens__item">
+                    <div class="experiens__item experiens__item_now">
                         <picture class='experiens__icon'>
                             <source type='image/avif' srcset='./img/exp-meta.avif'>
                             <source type='image/webp' srcset='./img/exp-meta.webp'>
@@ -160,8 +160,8 @@
                             <p class="experiens__position">VR designer</p>
                         </div>
                         <div class="experiens__address">
-                            <p class="experiens__date now">Present</p>
-                            <p class="experiens__region">Menlo Park, Calinfornia</p>
+                            <p class="experiens__date experiens__date_now">Present</p>
+                            <p class="experiens__region"><svg class="experiens__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>Menlo Park, Calinfornia</p>
                         </div>
                     </div>
                     <div class="experiens__item">
@@ -176,7 +176,7 @@
                         </div>
                         <div class="experiens__address">
                             <p class="experiens__date">Jul 20 - Jan 2022</p>
-                            <p class="experiens__region">Cupertino, California</p>
+                            <p class="experiens__region"><svg class="experiens__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>Cupertino, California</p>
                         </div>
                     </div>
                     <div class="experiens__item">
@@ -191,7 +191,7 @@
                         </div>
                         <div class="experiens__address">
                             <p class="experiens__date">Oct 2015 - Mar 2020</p>
-                            <p class="experiens__region">Austin, Texas</p>
+                            <p class="experiens__region"><svg class="experiens__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>Austin, Texas</p>
                         </div>
                     </div>
                     <div class="experiens__item">
@@ -206,7 +206,7 @@
                         </div>
                         <div class="experiens__address">
                             <p class="experiens__date">Sep 2014 - Aug 2015</p>
-                            <p class="experiens__region">Mountain View, California</p>
+                            <p class="experiens__region"><svg class="experiens__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>Mountain View, California</p>
                         </div>
                     </div>
                     <div class="experiens__item">
@@ -221,65 +221,69 @@
                         </div>
                         <div class="experiens__address">
                             <p class="experiens__date">Jul 20 - Jan 2022</p>
-                            <p class="experiens__region">Cupertino, California</p>
+                            <p class="experiens__region"><svg class="experiens__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>Cupertino, California</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="skills">
+            <section class="main__block skills">
                 <h2 class="title">Skills</h2>
                 <div class="skills__content">
                     <div class="design">
-                        <div class="design__card design__card_name">
-                            <svg class="skills__svg"><use xlink:href="./icons/sprite.svg#palette"></use></svg>
-                            <h3 class="skills__title">Design</h3>
+                        <div class="skills__card skills__card_name">
+                            <div class="design__icon">
+                                <svg class="skills__svg"><use xlink:href="./icons/sprite.svg#palette"></use></svg>
+                            </div>
+                            <h3 class="skills__name skills__name_title">Design</h3>
                         </div>
-                        <div class="design__card">
-                            <p class="design__name">Web Design</p>
-                            <p class="design__name">Mobile Design</p>
+                        <div class="skills__card skills__card_two">
+                            <p class="skills__name skills__name_design">Web Design</p>
+                            <p class="skills__name skills__name_design">Mobile Design</p>
                         </div>
-                        <div class="design__card">
-                            <p class="design__name">User Experiens</p>
+                        <div class="skills__card">
+                            <p class="skills__name skills__name_design">User Experiens</p>
                         </div>
-                        <div class="design__card">
-                            <ul class="design__name">
+                        <div class="skills__card">
+                            <ul class="skills__name skills__name_design list">
                                 <li>Wireframing</li>
                                 <li>Prototyping</li>
                                 <li>Testing</li>
                             </ul>
                         </div>
-                        <div class="design__card">
-                            <p class="design__name">Design System</p>
+                        <div class="skills__card">
+                            <p class="skills__name skills__name_design">Design System</p>
                         </div>
                     </div>   
                     <div class="dev">
-                        <div class="dev__card dev__card_name">
-                            <svg class="skills__svg"><use xlink:href="./icons/sprite.svg#dev"></use></svg>
-                            <h3 class="skills__title">Design</h3>
+                        <div class="skills__card skills__card_name">
+                            <div class="dev__icon">
+                                <svg class="skills__svg"><use xlink:href="./icons/sprite.svg#dev"></use></svg>
+                            </div>
+                            <h3 class="skills__name skills__name_title">Development</h3>
                         </div>
-                        <div class="dev__card">
-                            <p class="dev__name">React JS</p>
+                        <div class="skills__card">
+                            <p class="skills__name skills__name_dev">React JS</p>
                         </div>
-                        <div class="dev__card">
-                            <ul class="dev__name">
+                        <div class="skills__card">
+                            <ul class="skills__name skills__name_dev list">
                                 <li>Chakra UI</li>
                                 <li>Emotion</li>
                                 <li>Framer</li>
                             </ul>
                         </div>
-                        <div class="dev__card">
-                            <p class="dev__name">Type Script</p>
-                            <p class="dev__name">Next JS</p>
+                        <div class="skills__card skills__card_two">
+                            <p class="skills__name skills__name_dev">Type Script</p>
+                            <p class="skills__name skills__name_dev">Next JS</p>
                         </div>
-                        <div class="dev__card">
-                            <p class="dev__name">HTML</p>
-                            <p class="dev__name">CSS</p>
-                            <p class="dev__name">JS</p>
+                        <div class="skills__card skills__card_three">
+                            <p class="skills__name skills__name_dev skills__name_col">HTML</p>
+                            <p class="skills__name skills__name_dev skills__name">CSS</p>
+                            <p class="skills__name skills__name_dev skills__name">JS</p>
                         </div>
                     </div>
                 </div>
             </section>
-            <section class="education">
+            <section class="main__block education">
                 <h2 class="title">Education</h2>
                 <div class="education__content">
                     <div class="education__card">
@@ -326,7 +330,7 @@
                     </div>
                 </div>
             </section>
-            <section class="latest-projects">
+            <section class="main__block latest-projects">
                 <h2 class="title">Latest Projects</h2>
                 <div class="latest-projects__content">
                     <div class="project">
@@ -341,7 +345,7 @@
                                 <p class="project__desc">Figma UI Kit and Design System targeting a wide variety of use cases.</p>
                             </div>
                         </div>
-                        <a href="https//figma.com" class="project__link">https//figma.com</a>
+                        <a href="https//figma.com" class="project__link" target="_blank"><svg class="project__svg"><use xlink:href="./icons/sprite.svg#icn-figma"></use></svg>https//figma.com</a>
                     </div>
                     <div class="project">
                         <div class="project__info">
@@ -355,11 +359,11 @@
                                 <p class="project__desc">Powerful website + dashboard template for your next Chakra UI project.</p>
                             </div>
                         </div>
-                        <a href="https://ui-8.net" class="project__link">https://ui-8.net</a>
+                        <a href="https://ui-8.net" class="project__link" target="_blank"><svg class="project__svg"><use xlink:href="./icons/sprite.svg#link"></use></svg>https://ui-8.net</a>
                     </div>
                 </div>
             </section>
-            <section class="tools">
+            <section class="main__block tools">
                 <h2 class="title">Tools</h2>
                 <div class="tools__content">
                     <div class="tools__card">
@@ -403,7 +407,7 @@
         </main>
         <footer class="foot">
             <small>&copy; Copyright 2024, Beginner Full-Stack Developer</small>
-            <a href="#">Наверх</a>
+            <a href="#" class="foot__link">UP&#9650;</a>
         </footer>
     </div>
 </body>

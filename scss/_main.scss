@@ -1,0 +1,60 @@
+.main {
+    padding: 64px 48px 64px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    position: relative;
+    &__block {
+        padding-left: 64px;
+        display: flex;
+        flex-direction: column;
+        gap: 32px;
+        position: relative;
+        &::before {
+            content: '';
+            display: block;
+            width: 32px;
+            height: 32px;
+            background-color: white;
+            box-shadow: inset 0px 1px 1px 0px rgba(0, 0, 0, 0.04),0px 6px 24px 0px rgba(0, 0, 0, 0.04),0px 1px 4px 0px rgba(0, 0, 0, 0.05);
+            border-radius: 50%;
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        &::after {
+            content: '';
+            display: block;
+            width: 8px;
+            height: 8px;
+            background-color: #5531A7;
+            border-radius: 50%;
+            position: absolute;
+            top: 12px;
+            left: 12px;
+            transition: .3s;
+        }
+    }
+    &::before {
+        content: '';
+        display: block;
+        width: 1px;
+        height: 82%;
+        left: 48px;
+        position: absolute;
+        border: 1px solid #E2E6EE;
+    }
+}
+
+.title {
+    font-family: 'Outfit-Medium', sans-serif;
+    font-weight: 500;
+    font-size: 24px;
+    color: #2E2E48; 
+}
+
+@import 'experiens';
+@import 'skills';
+@import 'education';
+@import 'latest-project';
+@import 'tools';

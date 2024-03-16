@@ -1,0 +1,13 @@
+@import 'reset';
+@import 'fonts';
+@import 'head';
+@import 'main';
+@import 'foot';
+
+.page {
+    max-width: 1400px;
+    min-height: 100vh;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}

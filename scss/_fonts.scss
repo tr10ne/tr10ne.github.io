@@ -24,3 +24,12 @@
     font-style: normal;
     font-display: swap;
 }
+
+@font-face {
+    font-family: 'Outfit-SemiBold';
+    src: url('../fonts/Outfit-SemiBold.woff2') format('woff2'),
+        url('../fonts/Outfit-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
