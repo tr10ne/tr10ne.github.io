@@ -1,414 +1,82 @@
+<script type="text/javascript">
+  var gk_isXlsx = false;
+  var gk_xlsxFileLookup = {};
+  var gk_fileData = {};
+  function filledCell(cell) {
+    return cell !== "" && cell != null;
+  }
+  function loadFileData(filename) {
+    if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
+      try {
+        var workbook = XLSX.read(gk_fileData[filename], { type: "base64" });
+        var firstSheetName = workbook.SheetNames[0];
+        var worksheet = workbook.Sheets[firstSheetName];
+
+        // Convert sheet to JSON to filter blank rows
+        var jsonData = XLSX.utils.sheet_to_json(worksheet, {
+          header: 1,
+          blankrows: false,
+          defval: "",
+        });
+        // Filter out blank rows (rows where all cells are empty, null, or undefined)
+        var filteredData = jsonData.filter((row) => row.some(filledCell));
+
+        // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
+        var headerRowIndex = filteredData.findIndex(
+          (row, index) =>
+            row.filter(filledCell).length >=
+            filteredData[index + 1]?.filter(filledCell).length
+        );
+        // Fallback
+        if (headerRowIndex === -1 || headerRowIndex > 25) {
+          headerRowIndex = 0;
+        }
+
+        // Convert filtered JSON back to CSV
+        var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
+        csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
+        return csv;
+      } catch (e) {
+        console.error(e);
+        return "";
+      }
+    }
+    return gk_fileData[filename] || "";
+  }
+</script>
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="apple-touch-icon" sizes="152x152" href="./icons/apple-touch-icon.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./icons/favicon-32x32.png">
-    <link rel="icon" type="image/png" sizes="16x16" href="./icons/favicon-16x16.png">
-    <link rel="manifest" href="./icons/site.webmanifest">
-    <link rel="mask-icon" href="./icons/safari-pinned-tab.svg" color="#5bbad5">
-    <meta name="msapplication-TileColor" content="#da532c">
-    <meta name="theme-color" content="#ffffff">
-    <link rel="stylesheet" href="./css/styles.min.css">
-    <title>Promo Site</title>
-</head>
-<body>
-    <div class="page">
-        <header class="head">
-            <div class="logo">
-                <picture class='logo__pic'>
-                    <source type='image/avif' srcset='./img/my-foto.avif'>
-                    <source type='image/webp' srcset='./img/my-foto.webp'>
-                    <img  class='logo__img' src='./img/my-foto.jpg' alt='It&rsquo;s me'>
-                </picture>
-            </div>
-            <div class="info">
-                <div class="about">
-                    <h1 class="about__name">Chiara Bianchi</h1>
-                    <h2 class="about__profi">Product Designer</h2>
-                    <p class="about__quote">Design isn&rsquo;t finished until somebody is using it.<br><span class="info__span">Brenda Laurel</span></p>
-                </div>
-                <div class="contact">
-                    <div class="info__block">
-                        <div class="contact__icon">
-                            <svg class="contact__svg"><use xlink:href="./icons/sprite.svg#mail"></use></svg>
-                        </div>
-                        <div class="info__contact">
-                            <span class="info__span">Email</span>
-                            <a class="info__item link" href="mailto:chiara.bianchi@gmail.com">chiara.bianchi@gmail.com</a>
-                        </div>
-                    </div>
-                    <div class="info__block">
-                        <div class="contact__icon">
-                            <svg class="contact__svg"><use xlink:href="./icons/sprite.svg#link"></use></svg>
-                        </div>
-                        <div class="info__contact">
-                            <span class="info__span">Website</span>
-                            <a class="info__item link" href="https://aldesign.it" target="_blank">https://aldesign.it</a>
-                        </div>
-                    </div>
-                    <div class="info__block">
-                        <div class="contact__icon">
-                            <svg class="contact__svg"><use xlink:href="./icons/sprite.svg#phone"></use></svg>
-                        </div>
-                        <div class="info__contact">
-                            <span class="info__span">Phone</span>
-                            <a class="info__item link" href="tel:+393330123765">(+39) 333 0123 765</a>
-                        </div>
-                    </div>
-                    <div class="info__block">
-                        <div class="contact__icon">
-                            <svg class="contact__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>
-                        </div>
-                        <div class="info__contact">
-                            <span class="info__span">Addres</span>
-                            <address class="info__item">Bologna, Italy</address>
-                        </div>
-                    </div>
-                </div>
-                <div class="socials">
-                    <div class="info__block">
-                        <div class="socials__icon socials__icon_insta">
-                            <svg class="socials__svg"><use xlink:href="./icons/sprite.svg#insta"></use></svg>
-                        </div>
-                        <div class="info__contact">
-                            <span class="info__span">Instagram</span>
-                            <a class="info__item link" href="https://instagram.com/chiara.designs" target="_blank">@chiara.designs</a>
-                        </div>
-                    </div>
-                    <div class="info__block">
-                        <div class="socials__icon socials__icon_dribbble">
-                            <svg class="socials__svg"><use xlink:href="./icons/sprite.svg#dribbble"></use></svg>
-                        </div>
-                        <div class="info__contact">
-                            <span class="info__span">Dribbble</span>
-                            <a class="info__item link" href="https://dribbble.com/chiara-designs" target="_blank">@chiara-designs</a>
-                        </div>
-                    </div>
-                    <div class="info__block">
-                        <div class="socials__icon socials__icon_twitter">
-                            <svg class="socials__svg"><use xlink:href="./icons/sprite.svg#twitter"></use></svg>
-                        </div>
-                        <div class="info__contact">
-                            <span class="info__span">Twitter</span>
-                            <a class="info__item link" href="https://twitter.com/chiaradesigns" target="_blank">@chiaradesigns</a>
-                        </div>
-                    </div>
-                    <div class="info__block">
-                        <div class="socials__icon socials__icon_linkedin">
-                            <svg class="socials__svg"><use xlink:href="./icons/sprite.svg#linkedin"></use></svg>
-                        </div>
-                        <div class="info__contact">
-                            <span class="info__span">Linkedin</span>
-                            <a class="info__item link" href="https://linkedin.com/chiara-bianchi-123" target="_blank">chiara-bianchi-123</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="lang">
-                    <div class="info__block">
-                        <div class="lang__icon">
-                            <svg class="lang__svg"><use xlink:href="./icons/sprite.svg#italian"></use></svg>
-                        </div>
-                        <div class="info__lang">
-                            <span class="info__span">Native</span>
-                            <p class="info__item">Italian</p>
-                        </div>
-                    </div>
-                    <div class="info__block">
-                        <div class="lang__icon">
-                            <svg class="lang__svg"><use xlink:href="./icons/sprite.svg#greece"></use></svg>
-                        </div>
-                        <div class="info__lang">
-                            <span class="info__span">Native</span>
-                            <p class="info__item">Greek</p>
-                        </div>
-                    </div>
-                    <div class="info__block">
-                        <div class="lang__icon">
-                            <svg class="lang__svg"><use xlink:href="./icons/sprite.svg#england"></use></svg>
-                        </div>
-                        <div class="info__lang">
-                            <span class="info__span">Professional working</span>
-                            <p class="info__item">English</p>
-                        </div>
-                    </div>
-                    <div class="info__block">
-                        <div class="lang__icon">
-                            <svg class="lang__svg"><use xlink:href="./icons/sprite.svg#spain"></use></svg>
-                        </div>
-                        <div class="info__lang">
-                            <span class="info__span">Elementary</span>
-                            <p class="info__item">Spanish</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </header>
-        <main class="main">
-            <section class="main__block experiens">
-                <h2 class="title">Experiens</h2>
-                <div class="experiens__list">
-                    <div class="experiens__item experiens__item_now">
-                        <picture class='experiens__icon'>
-                            <source type='image/avif' srcset='./img/exp-meta.avif'>
-                            <source type='image/webp' srcset='./img/exp-meta.webp'>
-                            <img  class='experiens__img' src='./img/exp-meta.jpg' alt='Meta'>
-                        </picture>
-                        <div class="experiens__name">
-                            <h3 class="experiens__title">Meta</h3>
-                            <p class="experiens__position">VR designer</p>
-                        </div>
-                        <div class="experiens__address">
-                            <p class="experiens__date experiens__date_now">Present</p>
-                            <p class="experiens__region"><svg class="experiens__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>Menlo Park, Calinfornia</p>
-                        </div>
-                    </div>
-                    <div class="experiens__item">
-                        <picture class='experiens__icon'>
-                            <source type='image/avif' srcset='./img/exp-apple.avif'>
-                            <source type='image/webp' srcset='./img/exp-apple.webp'>
-                            <img  class='experiens__img' src='./img/exp-apple.jpg' alt='Apple'>
-                        </picture>
-                        <div class="experiens__name">
-                            <h3 class="experiens__title">Apple</h3>
-                            <p class="experiens__position">Product designer</p>
-                        </div>
-                        <div class="experiens__address">
-                            <p class="experiens__date">Jul 20 - Jan 2022</p>
-                            <p class="experiens__region"><svg class="experiens__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>Cupertino, California</p>
-                        </div>
-                    </div>
-                    <div class="experiens__item">
-                        <picture class='experiens__icon'>
-                            <source type='image/avif' srcset='./img/exp-tesla.avif'>
-                            <source type='image/webp' srcset='./img/exp-tesla.webp'>
-                            <img  class='experiens__img' src='./img/exp-tesla.jpg' alt='Tesla'>
-                        </picture>
-                        <div class="experiens__name">
-                            <h3 class="experiens__title">Tesla</h3>
-                            <p class="experiens__position">UX Designer</p>
-                        </div>
-                        <div class="experiens__address">
-                            <p class="experiens__date">Oct 2015 - Mar 2020</p>
-                            <p class="experiens__region"><svg class="experiens__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>Austin, Texas</p>
-                        </div>
-                    </div>
-                    <div class="experiens__item">
-                        <picture class='experiens__icon'>
-                            <source type='image/avif' srcset='./img/exp-google.avif'>
-                            <source type='image/webp' srcset='./img/exp-google.webp'>
-                            <img  class='experiens__img' src='./img/exp-google.jpg' alt='Google'>
-                        </picture>
-                        <div class="experiens__name">
-                            <h3 class="experiens__title">Google</h3>
-                            <p class="experiens__position">Design system architect</p>
-                        </div>
-                        <div class="experiens__address">
-                            <p class="experiens__date">Sep 2014 - Aug 2015</p>
-                            <p class="experiens__region"><svg class="experiens__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>Mountain View, California</p>
-                        </div>
-                    </div>
-                    <div class="experiens__item">
-                        <picture class='experiens__icon'>
-                            <source type='image/avif' srcset='./img/exp-vectornator.avif'>
-                            <source type='image/webp' srcset='./img/exp-vectornator.webp'>
-                            <img  class='experiens__img' src='./img/exp-vectornator.jpg' alt='Vectornator'>
-                        </picture>
-                        <div class="experiens__name">
-                            <h3 class="experiens__title">Vectornator</h3>
-                            <p class="experiens__position">Senior product design</p>
-                        </div>
-                        <div class="experiens__address">
-                            <p class="experiens__date">Jul 20 - Jan 2022</p>
-                            <p class="experiens__region"><svg class="experiens__svg"><use xlink:href="./icons/sprite.svg#location"></use></svg>Cupertino, California</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="main__block skills">
-                <h2 class="title">Skills</h2>
-                <div class="skills__content">
-                    <div class="design">
-                        <div class="skills__card skills__card_name">
-                            <div class="design__icon">
-                                <svg class="skills__svg"><use xlink:href="./icons/sprite.svg#palette"></use></svg>
-                            </div>
-                            <h3 class="skills__name skills__name_title">Design</h3>
-                        </div>
-                        <div class="skills__card skills__card_two">
-                            <p class="skills__name skills__name_design">Web Design</p>
-                            <p class="skills__name skills__name_design">Mobile Design</p>
-                        </div>
-                        <div class="skills__card">
-                            <p class="skills__name skills__name_design">User Experiens</p>
-                        </div>
-                        <div class="skills__card">
-                            <ul class="skills__name skills__name_design list">
-                                <li>Wireframing</li>
-                                <li>Prototyping</li>
-                                <li>Testing</li>
-                            </ul>
-                        </div>
-                        <div class="skills__card">
-                            <p class="skills__name skills__name_design">Design System</p>
-                        </div>
-                    </div>   
-                    <div class="dev">
-                        <div class="skills__card skills__card_name">
-                            <div class="dev__icon">
-                                <svg class="skills__svg"><use xlink:href="./icons/sprite.svg#dev"></use></svg>
-                            </div>
-                            <h3 class="skills__name skills__name_title">Development</h3>
-                        </div>
-                        <div class="skills__card">
-                            <p class="skills__name skills__name_dev">React JS</p>
-                        </div>
-                        <div class="skills__card">
-                            <ul class="skills__name skills__name_dev list">
-                                <li>Chakra UI</li>
-                                <li>Emotion</li>
-                                <li>Framer</li>
-                            </ul>
-                        </div>
-                        <div class="skills__card skills__card_two">
-                            <p class="skills__name skills__name_dev">Type Script</p>
-                            <p class="skills__name skills__name_dev">Next JS</p>
-                        </div>
-                        <div class="skills__card skills__card_three">
-                            <p class="skills__name skills__name_dev skills__name_col">HTML</p>
-                            <p class="skills__name skills__name_dev skills__name">CSS</p>
-                            <p class="skills__name skills__name_dev skills__name">JS</p>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="main__block education">
-                <h2 class="title">Education</h2>
-                <div class="education__content">
-                    <div class="education__card">
-                        <div class="education__head">
-                            <picture class='education__icon'>
-                                <source type='image/avif' srcset='./img/edu-memorisely.avif'>
-                                <source type='image/webp' srcset='./img/edu-memorisely.webp'>
-                                <img  class='education__img' src='./img/edu-memorisely.png' alt='Memorisely'>
-                            </picture>
-                            <h3 class="education__title">Memorisely</h3>
-                        </div>
-                        <div class="education__desc">
-                            <p class="education__text">Build a design system</p>
-                            <span class="education__date">Oct 2021</span>
-                        </div>
-                    </div>
-                    <div class="education__card">
-                        <div class="education__head">
-                            <picture class='education__icon'>
-                                <source type='image/avif' srcset='./img/edu-ux-academy.avif'>
-                                <source type='image/webp' srcset='./img/edu-ux-academy.webp'>
-                                <img  class='education__img' src='./img/edu-ux-academy.png' alt='UX acadamy'>
-                            </picture>
-                            <h3 class="education__title">UX acadamy</h3>
-                        </div>
-                        <div class="education__desc">
-                            <p class="education__text">UX Design certificate</p>
-                            <span class="education__date">Feb 2020</span>
-                        </div>
-                    </div>
-                    <div class="education__card">
-                        <div class="education__head">
-                            <picture class='education__icon'>
-                                <source type='image/avif' srcset='./img/edu-coursera.avif'>
-                                <source type='image/webp' srcset='./img/edu-coursera.webp'>
-                                <img  class='education__img' src='./img/edu-coursera.png' alt='Coursera'>
-                            </picture>
-                            <h3 class="education__title">Coursera</h3>
-                        </div>
-                        <div class="education__desc">
-                            <p class="education__text">Usera reasearch course</p>
-                            <span class="education__date">Dec 2019</span>
-                        </div>
-                    </div>
-                </div>
-            </section>
-            <section class="main__block latest-projects">
-                <h2 class="title">Latest Projects</h2>
-                <div class="latest-projects__content">
-                    <div class="project">
-                        <div class="project__info">
-                            <picture class='project__icon'>
-                                <source type='image/avif' srcset='./img/project-figma.avif'>
-                                <source type='image/webp' srcset='./img/project-figma.webp'>
-                                <img  class='project__img' src='./img/project-figma.jpg' alt='Poweful Design System'>
-                            </picture>
-                            <div class="project__name">
-                                <h3 class="project__title">Poweful Design System</h3>
-                                <p class="project__desc">Figma UI Kit and Design System targeting a wide variety of use cases.</p>
-                            </div>
-                        </div>
-                        <a href="https//figma.com" class="project__link" target="_blank"><svg class="project__svg"><use xlink:href="./icons/sprite.svg#icn-figma"></use></svg>https//figma.com</a>
-                    </div>
-                    <div class="project">
-                        <div class="project__info">
-                            <picture class='project__icon'>
-                                <source type='image/avif' srcset='./img/project-website.avif'>
-                                <source type='image/webp' srcset='./img/project-website.webp'>
-                                <img  class='project__img' src='./img/project-website.jpg' alt='Modern Website'>
-                            </picture>
-                            <div class="project__name">
-                                <h3 class="project__title">Modern Website</h3>
-                                <p class="project__desc">Powerful website + dashboard template for your next Chakra UI project.</p>
-                            </div>
-                        </div>
-                        <a href="https://ui-8.net" class="project__link" target="_blank"><svg class="project__svg"><use xlink:href="./icons/sprite.svg#link"></use></svg>https://ui-8.net</a>
-                    </div>
-                </div>
-            </section>
-            <section class="main__block tools">
-                <h2 class="title">Tools</h2>
-                <div class="tools__content">
-                    <div class="tools__card">
-                        <picture class='tools__pic'>
-                            <source type='image/avif' srcset='./img/tools-figma.avif'>
-                            <source type='image/webp' srcset='./img/tools-figma.webp'>
-                            <img  class='tools__img' src='./img/tools-figma.jpg' alt='Figma'>
-                        </picture>
-                        <h3 class="tools__title">Figma</h3>
-                        <p class="tools__desc"> UI Design, prototyping</p>
-                    </div>
-                    <div class="tools__card">
-                        <picture class='tools__pic'>
-                            <source type='image/avif' srcset='./img/tools-maze.avif'>
-                            <source type='image/webp' srcset='./img/tools-maze.webp'>
-                            <img  class='tools__img' src='./img/tools-maze.jpg' alt='Maze'>
-                        </picture>
-                        <h3 class="tools__title">Maze</h3>
-                        <p class="tools__desc">Product research</p>
-                    </div>
-                    <div class="tools__card">
-                        <picture class='tools__pic'>
-                            <source type='image/avif' srcset='./img/tools-spline.avif'>
-                            <source type='image/webp' srcset='./img/tools-spline.webp'>
-                            <img  class='tools__img' src='./img/tools-spline.jpg' alt='Spline'>
-                        </picture>
-                        <h3 class="tools__title">Spline</h3>
-                        <p class="tools__desc">3D design</p>
-                    </div>
-                    <div class="tools__card">
-                        <picture class='tools__pic'>
-                            <source type='image/avif' srcset='./img/tools-zeplin.avif'>
-                            <source type='image/webp' srcset='./img/tools-zeplin.webp'>
-                            <img  class='tools__img' src='./img/tools-zeplin.jpg' alt='Zeplin'>
-                        </picture>
-                        <h3 class="tools__title">Zeplin</h3>
-                        <p class="tools__desc">Design workspace</p>
-                    </div>
-                </div>
-            </section>
-        </main>
-        <footer class="foot">
-            <small>&copy; Copyright 2024, Beginner Full-Stack Developer</small>
-            <a href="#" class="foot__link">UP&#9650;</a>
-        </footer>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Визуализация ошибок по месяцам</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Визуализация ошибок по месяцам</h1>
+      <div class="select-container">
+        <select id="errorType" onchange="updateChart()">
+          <option value="all">Все ошибки</option>
+          <option value="медленный ответ">Медленный ответ</option>
+          <option value="не дождался ответа">Не дождался ответа</option>
+          <option value="недоступен">Недоступен</option>
+        </select>
+        <select id="targetSelect" onchange="updateChart()">
+          <option value="all">Все домены</option>
+          <!-- Опции будут добавлены динамически -->
+        </select>
+        <select id="groupBy" onchange="updateChart()">
+          <option value="month">По месяцам</option>
+          <option value="week">По неделям</option>
+          <option value="day">По дням</option>
+        </select>
+      </div>
+      <div id="errorMessage" style="color: red; text-align: center"></div>
+      <canvas id="errorChart"></canvas>
     </div>
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
