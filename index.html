@@ -83,7 +83,6 @@
 
               if (!allowedUserIds.includes(userId)) {
                 document.body.innerHTML = `<h2 style="text-align:center; margin-top:50px;">Подпишитесь на бота, чтобы получить доступ</h2>`;
-                throw new Error(`Пользователь ${userId} не разрешён`);
               }
 
               console.log("✅ Пользователь разрешён:", userId);
