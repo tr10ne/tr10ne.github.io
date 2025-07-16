@@ -73,12 +73,12 @@
 
         if (!userId) {
           document.body.innerHTML =
-            "<h2 style='text-align:center; color:red; margin-top:50px;'>Ошибка: пользователь не найден</h2>";
+            "<h2 style='text-align:center; color:red; margin-top:50px;'>Подпишитесь на рассылку https://t.me/MetallMonitorBot</h2>";
           throw new Error("Пользователь не найден в initDataUnsafe");
         }
 
         if (!allowedUserIds.includes(userId)) {
-          document.body.innerHTML = `<h2 style="text-align:center; color:red; margin-top:50px;">Доступ запрещён для user.id: ${userId}</h2>`;
+          document.body.innerHTML = `<h2 style="text-align:center; color:red; margin-top:50px;">Подпишитесь на рассылку https://t.me/MetallMonitorBot</h2>`;
           throw new Error(`Пользователь с ID ${userId} не имеет доступа`);
         }
 
