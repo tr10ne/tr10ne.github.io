@@ -57,30 +57,33 @@
   <body>
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
-      // Проверка user.id из Telegram WebApp
-      // const allowedUserIds = [
-      //   "298012619",
-      //   "1200578442",
-      //   "950603217",
-      //   "351958453",
-      //   "590888822",
-      //   "974650528",
-      // ];
-      // const user = window.Telegram?.WebApp?.initDataUnsafe?.user;
-      // const userId = user?.id?.toString();
+      window.addEventListener("DOMContentLoaded", function () {
+        Telegram.WebApp.ready(); // инициализация WebApp
+        const allowedUserIds = [
+          "298012619",
+          "1200578442",
+          "950603217",
+          "351958453",
+          "590888822",
+          "974650528",
+        ];
 
-      // if (!allowedUserIds.includes(userId)) {
-      //   document.body.innerHTML =
-      //     '<h2 style="text-align:center; color:red; margin-top:50px;">Доступ запрещён</h2>';
-      //   throw new Error(`Пользователь с ID ${userId} не имеет доступа`);
-      // }
-      const user = window.Telegram?.WebApp?.initDataUnsafe?.user;
-      const userId = user?.id?.toString();
-      document.body.innerHTML = (
-        <h2 style="text-align:center; color:red; margin-top:50px;">
-          ${userId}
-        </h2>
-      );
+        const user = Telegram?.WebApp?.initDataUnsafe?.user;
+        const userId = user?.id?.toString();
+
+        if (!userId) {
+          document.body.innerHTML =
+            "<h2 style='text-align:center; color:red; margin-top:50px;'>Ошибка: пользователь не найден</h2>";
+          throw new Error("Пользователь не найден в initDataUnsafe");
+        }
+
+        if (!allowedUserIds.includes(userId)) {
+          document.body.innerHTML = `<h2 style="text-align:center; color:red; margin-top:50px;">Доступ запрещён для user.id: ${userId}</h2>`;
+          throw new Error(`Пользователь с ID ${userId} не имеет доступа`);
+        }
+
+        console.log("✅ Разрешённый пользователь:", userId);
+      });
     </script>
     <div class="container">
       <h1>Визуализация ошибок</h1>
