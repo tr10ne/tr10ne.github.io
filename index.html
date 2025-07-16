@@ -82,7 +82,7 @@
                 Telegram.WebApp.initDataUnsafe.user?.id?.toString();
 
               if (!allowedUserIds.includes(userId)) {
-                document.body.innerHTML = `<h2 style="text-align:center; margin-top:50px;">Подпишитесь на рассылку бота</h2>`;
+                document.body.innerHTML = `<h2 style="text-align:center; margin-top:50px;">Подпишитесь на бота, чтобы получить доступ</h2>`;
                 throw new Error(`Пользователь ${userId} не разрешён`);
               }
 
