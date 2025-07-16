@@ -57,22 +57,29 @@
   <body>
     <script>
       // Проверка user.id из Telegram WebApp
-      const allowedUserIds = [
-        "298012619",
-        "1200578442",
-        "950603217",
-        "351958453",
-        "590888822",
-        "974650528",
-      ];
+      // const allowedUserIds = [
+      //   "298012619",
+      //   "1200578442",
+      //   "950603217",
+      //   "351958453",
+      //   "590888822",
+      //   "974650528",
+      // ];
+      // const user = window.Telegram?.WebApp?.initDataUnsafe?.user;
+      // const userId = user?.id?.toString();
+
+      // if (!allowedUserIds.includes(userId)) {
+      //   document.body.innerHTML =
+      //     '<h2 style="text-align:center; color:red; margin-top:50px;">Доступ запрещён</h2>';
+      //   throw new Error(`Пользователь с ID ${userId} не имеет доступа`);
+      // }
       const user = window.Telegram?.WebApp?.initDataUnsafe?.user;
       const userId = user?.id?.toString();
-
-      if (!allowedUserIds.includes(userId)) {
-        document.body.innerHTML =
-          '<h2 style="text-align:center; color:red; margin-top:50px;">Доступ запрещён</h2>';
-        throw new Error(`Пользователь с ID ${userId} не имеет доступа`);
-      }
+      document.body.innerHTML = (
+        <h2 style="text-align:center; color:red; margin-top:50px;">
+          ${userId}
+        </h2>
+      );
     </script>
     <div class="container">
       <h1>Визуализация ошибок</h1>
