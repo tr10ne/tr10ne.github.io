@@ -71,14 +71,8 @@
         const user = Telegram?.WebApp?.initDataUnsafe?.user;
         const userId = user?.id?.toString();
 
-        if (!userId) {
-          document.body.innerHTML =
-            "<h2 style='text-align:center; color:red; margin-top:50px;'>Подпишитесь на рассылку https://t.me/MetallMonitorBot</h2>";
-          throw new Error("Пользователь не найден в initDataUnsafe");
-        }
-
         if (!allowedUserIds.includes(userId)) {
-          document.body.innerHTML = `<h2 style="text-align:center; color:red; margin-top:50px;">Подпишитесь на рассылку https://t.me/MetallMonitorBot</h2>`;
+          document.body.innerHTML = `<h2 style="text-align:center; margin-top:50px;">Подпишитесь на рассылку<br>https://t.me/MetallMonitorBot</h2>`;
           throw new Error(`Пользователь с ID ${userId} не имеет доступа`);
         }
 
