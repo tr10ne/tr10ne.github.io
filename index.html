@@ -64,7 +64,9 @@
 
         // Если это Telegram WebApp — подгружаем разрешённые ID
         if (isTelegram) {
-          fetch("http://tr1one23.beget.tech/telegram_subscribers.txt")
+          fetch(
+            "https://cors-anywhere.herokuapp.com/http://tr1one23.beget.tech/telegram_subscribers.txt"
+          )
             .then((response) => {
               if (!response.ok)
                 throw new Error(
