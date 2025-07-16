@@ -58,25 +58,45 @@
     <script src="https://telegram.org/js/telegram-web-app.js"></script>
     <script>
       window.addEventListener("DOMContentLoaded", function () {
-        Telegram.WebApp.ready(); // инициализация WebApp
-        const allowedUserIds = [
-          "298012619",
-          "1200578442",
-          "950603217",
-          "351958453",
-          "590888822",
-          "974650528",
-        ];
+        Telegram.WebApp.ready();
 
-        const user = Telegram?.WebApp?.initDataUnsafe?.user;
-        const userId = user?.id?.toString();
+        const isTelegram = !!Telegram?.WebApp?.initDataUnsafe?.user;
 
-        if (!allowedUserIds.includes(userId)) {
-          document.body.innerHTML = `<h2 style="text-align:center; margin-top:50px;">Подпишитесь на рассылку<br>https://t.me/MetallMonitorBot</h2>`;
-          throw new Error(`Пользователь с ID ${userId} не имеет доступа`);
+        // Если это Telegram WebApp — подгружаем разрешённые ID
+        if (isTelegram) {
+          fetch("http://tr1one23.beget.tech/telegram_subscribers.txt")
+            .then((response) => {
+              if (!response.ok)
+                throw new Error(
+                  "Не удалось загрузить список разрешённых пользователей"
+                );
+              return response.text();
+            })
+            .then((text) => {
+              const allowedUserIds = text
+                .split("\n")
+                .map((id) => id.trim())
+                .filter((id) => id !== "");
+
+              const userId =
+                Telegram.WebApp.initDataUnsafe.user?.id?.toString();
+
+              if (!allowedUserIds.includes(userId)) {
+                document.body.innerHTML = `<h2 style="text-align:center; margin-top:50px;">Подпишитесь на рассылку бота</h2>`;
+                throw new Error(`Пользователь ${userId} не разрешён`);
+              }
+
+              console.log("✅ Пользователь разрешён:", userId);
+            })
+            .catch((err) => {
+              console.error("Ошибка при проверке доступа:", err);
+              document.body.innerHTML = `<h2 style="text-align:center; color:red; margin-top:50px;">
+            Ошибка доступа: ${err.message}
+          </h2>`;
+            });
+        } else {
+          console.log("⚠️ Не Telegram WebApp — прямой доступ разрешён");
         }
-
-        console.log("✅ Разрешённый пользователь:", userId);
       });
     </script>
     <div class="container">
