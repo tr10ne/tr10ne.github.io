@@ -229,6 +229,13 @@ function updateChart() {
     chart.destroy();
   }
 
+  // Удаление inline-стилей, чтобы canvas корректно масштабировался по CSS
+  const canvas = document.getElementById("errorChart");
+  canvas.removeAttribute("width");
+  canvas.removeAttribute("height");
+  canvas.style.width = "100%";
+  canvas.style.height = "100%";
+
   let titleText;
   if (errorType === "all") {
     titleText = `Количество всех ошибок ${
@@ -259,6 +266,8 @@ function updateChart() {
       datasets: datasets,
     },
     options: {
+      responsive: true,
+      maintainAspectRatio: false,
       scales: {
         x: {
           title: {
