@@ -90,9 +90,7 @@
             })
             .catch((err) => {
               console.error("Ошибка при проверке доступа:", err);
-              document.body.innerHTML = `<h2 style="text-align:center; color:red; margin-top:50px;">
-            Ошибка доступа: ${err.message}
-          </h2>`;
+              document.body.innerHTML = `<h2 style="text-align:center; margin-top:50px;">Подпишитесь на бота, чтобы получить доступ</h2>`;
             });
         } else {
           console.log("⚠️ Не Telegram WebApp — прямой доступ разрешён");
