@@ -1,6 +1,7 @@
 let chartData = [];
 let chart;
-let allTargets = []; // Массив для хранения всех уникальных target
+let allTargets = [];
+let allZones = [];
 
 const ctx = document.getElementById("errorChart").getContext("2d");
 const errorMessage = document.getElementById("errorMessage");
@@ -12,6 +13,11 @@ if (typeof moment === "undefined") {
   );
   errorMessage.textContent =
     "Ошибка: Moment.js не загружен. Проверьте интернет-соединение или скрипты в index.html.";
+}
+
+function extractZone(target) {
+  const parts = target.split(".");
+  return parts.length > 1 ? "." + parts[parts.length - 1].toLowerCase() : "";
 }
 
 // Загрузка JSON данных
@@ -26,12 +32,16 @@ fetch("log_results.json")
     console.log("JSON успешно загружен:", data);
     chartData = data;
 
-    // Получаем все уникальные target из данных
+    // Получаем все уникальные target
     allTargets = [...new Set(data.map((item) => item.target))];
     allTargets.sort();
 
-    // Обновляем select с target
+    // Получаем все уникальные зоны
+    allZones = [...new Set(data.map((item) => extractZone(item.target)))];
+    allZones.sort();
+
     updateTargetSelect();
+    updateZoneSelect();
     updateChart();
   })
   .catch((error) => {
@@ -42,20 +52,35 @@ fetch("log_results.json")
 
 function updateTargetSelect() {
   const targetSelect = document.getElementById("targetSelect");
-  targetSelect.innerHTML = ""; // Очищаем select
+  targetSelect.innerHTML = "";
 
-  // Добавляем опцию "Все домены"
   const allOption = document.createElement("option");
   allOption.value = "all";
   allOption.textContent = "Все домены";
   targetSelect.appendChild(allOption);
 
-  // Добавляем все target
   allTargets.forEach((target) => {
     const option = document.createElement("option");
     option.value = target;
     option.textContent = target;
     targetSelect.appendChild(option);
+  });
+}
+
+function updateZoneSelect() {
+  const zoneSelect = document.getElementById("zoneSelect");
+  zoneSelect.innerHTML = "";
+
+  const allOption = document.createElement("option");
+  allOption.value = "all";
+  allOption.textContent = "Все зоны";
+  zoneSelect.appendChild(allOption);
+
+  allZones.forEach((zone) => {
+    const option = document.createElement("option");
+    option.value = zone;
+    option.textContent = zone;
+    zoneSelect.appendChild(option);
   });
 }
 
@@ -84,17 +109,21 @@ function getGroupLabel(groupBy, dateStr) {
 }
 
 function aggregateData(errorType, groupBy = "month", selectedTarget = "all") {
+  const selectedZone = document.getElementById("zoneSelect").value;
+
   if (!moment) {
     console.error("Moment.js не доступен в aggregateData.");
     errorMessage.textContent = "Ошибка: Moment.js не доступен.";
     return { labels: [], datasets: [] };
   }
 
-  // Фильтруем данные по выбранному target
-  const filteredData =
-    selectedTarget === "all"
-      ? chartData
-      : chartData.filter((entry) => entry.target === selectedTarget);
+  const filteredData = chartData.filter((entry) => {
+    const byTarget =
+      selectedTarget === "all" || entry.target === selectedTarget;
+    const byZone =
+      selectedZone === "all" || extractZone(entry.target) === selectedZone;
+    return byTarget && byZone;
+  });
 
   if (errorType === "all") {
     const errorTypes = ["медленный ответ", "не дождался ответа", "недоступен"];
@@ -215,10 +244,12 @@ function updateChart() {
   const errorType = document.getElementById("errorType").value;
   const groupBy = document.getElementById("groupBy").value;
   const selectedTarget = document.getElementById("targetSelect").value;
+  const selectedZone = document.getElementById("zoneSelect").value;
 
   console.log(
-    `Обновление графика для типа ошибки: ${errorType}, группировка: ${groupBy}, target: ${selectedTarget}`
+    `Обновление графика: ошибка=${errorType}, группировка=${groupBy}, target=${selectedTarget}, зона=${selectedZone}`
   );
+
   const { labels, datasets } = aggregateData(
     errorType,
     groupBy,
@@ -229,7 +260,6 @@ function updateChart() {
     chart.destroy();
   }
 
-  // Удаление inline-стилей, чтобы canvas корректно масштабировался по CSS
   const canvas = document.getElementById("errorChart");
   canvas.removeAttribute("width");
   canvas.removeAttribute("height");
@@ -240,24 +270,24 @@ function updateChart() {
   if (errorType === "all") {
     titleText = `Количество всех ошибок ${
       selectedTarget === "all" ? "" : `для ${selectedTarget}`
-    } ${
-      groupBy === "month"
-        ? "по месяцам"
-        : groupBy === "week"
-        ? "по неделям"
-        : "по дням"
     }`;
   } else {
     titleText = `Количество ошибок "${errorType}" ${
       selectedTarget === "all" ? "" : `для ${selectedTarget}`
-    } ${
-      groupBy === "month"
-        ? "по месяцам"
-        : groupBy === "week"
-        ? "по неделям"
-        : "по дням"
     }`;
   }
+
+  if (selectedZone !== "all") {
+    titleText += ` (зона ${selectedZone})`;
+  }
+
+  titleText += ` ${
+    groupBy === "month"
+      ? "по месяцам"
+      : groupBy === "week"
+      ? "по неделям"
+      : "по дням"
+  }`;
 
   chart = new Chart(ctx, {
     type: "bar",

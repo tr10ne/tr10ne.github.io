@@ -23,7 +23,7 @@ h1 {
 .select-container {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-around;
   gap: 10px;
   flex-wrap: wrap;
   margin-bottom: 20px;
@@ -35,7 +35,7 @@ select {
   font-size: 16px;
   border-radius: 4px;
   border: 1px solid #ccc;
-  width: 200px;
+  width: 150px;
 }
 
 canvas {

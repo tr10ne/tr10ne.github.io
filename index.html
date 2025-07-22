@@ -109,6 +109,10 @@
           <option value="all">Все домены</option>
           <!-- Опции будут добавлены динамически -->
         </select>
+        <select id="zoneSelect" onchange="updateChart()">
+          <option value="all">Все зоны</option>
+          <!-- Опции добавятся динамически -->
+        </select>
         <select id="groupBy" onchange="updateChart()">
           <option value="month">По месяцам</option>
           <option value="week">По неделям</option>
