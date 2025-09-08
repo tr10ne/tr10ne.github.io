@@ -19,16 +19,17 @@ body {
 h1 {
   text-align: center;
   color: #333;
+  margin: 10px 0px 15px;
 }
 
 .select-container {
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  gap: 10px;
+  gap: 5px;
   flex-wrap: wrap;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
 }
 
 label {
@@ -36,13 +37,18 @@ label {
 }
 
 select {
-  margin: 5px;
-  padding: 8px;
+  margin: 2px;
+  padding: 4px;
   font-size: 14px;
   border-radius: 4px;
   border: 1px solid #ccc;
-  max-width: 280px;
-  min-width: 130px;
+  /* max-width: 280px;
+  min-width: 130px; */
+  min-width: 330px;
+}
+
+option {
+  width: 100%;
 }
 
 canvas {
