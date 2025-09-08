@@ -42,8 +42,6 @@ select {
   font-size: 14px;
   border-radius: 4px;
   border: 1px solid #ccc;
-  /* max-width: 280px;
-  min-width: 130px; */
   min-width: 330px;
 }
 
