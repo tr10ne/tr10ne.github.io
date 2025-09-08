@@ -15,40 +15,56 @@ if (typeof moment === "undefined") {
     "Ошибка: Moment.js не загружен. Проверьте интернет-соединение или скрипты в index.html.";
 }
 
+// Проверка наличия Chart.js
+if (typeof Chart === "undefined") {
+  console.error(
+    "Chart.js не загружен. Проверьте подключение скрипта chart.umd.min.js."
+  );
+  errorMessage.textContent =
+    "Ошибка: Chart.js не загружен. Проверьте интернет-соединение или скрипты в index.html.";
+}
+
 function extractZone(target) {
-  const parts = target.split(".");
+  const host = target.split("/")[0];
+  const parts = host.split(".");
   return parts.length > 1 ? "." + parts[parts.length - 1].toLowerCase() : "";
 }
 
-// Загрузка JSON данных
-fetch("log_results.json")
-  .then((response) => {
-    if (!response.ok) {
-      throw new Error(`HTTP error! Status: ${response.status}`);
-    }
-    return response.json();
-  })
-  .then((data) => {
-    console.log("JSON успешно загружен:", data);
-    chartData = data;
+function loadData() {
+  const dataType = document.getElementById("dataType").value;
+  const jsonFile =
+    dataType === "main" ? "log_results.json" : "log_results_clone.json";
 
-    // Получаем все уникальные target
-    allTargets = [...new Set(data.map((item) => item.target))];
-    allTargets.sort();
+  fetch(jsonFile)
+    .then((response) => {
+      if (!response.ok) {
+        throw new Error(`HTTP error! Status: ${response.status}`);
+      }
+      return response.json();
+    })
+    .then((data) => {
+      console.log(`JSON успешно загружен для ${dataType}:`, data);
+      chartData = data;
 
-    // Получаем все уникальные зоны
-    allZones = [...new Set(data.map((item) => extractZone(item.target)))];
-    allZones.sort();
+      // Получаем все уникальные target
+      allTargets = [...new Set(data.map((item) => item.target))];
+      allTargets.sort();
 
-    updateTargetSelect();
-    updateZoneSelect();
-    updateChart();
-  })
-  .catch((error) => {
-    console.error("Ошибка загрузки JSON:", error);
-    errorMessage.textContent =
-      "Ошибка загрузки данных. Проверьте файл log_results.json или запустите через локальный сервер (например, python -m http.server).";
-  });
+      // Получаем все уникальные зоны
+      allZones = [...new Set(data.map((item) => extractZone(item.target)))];
+      allZones.sort();
+
+      updateTargetSelect();
+      updateZoneSelect();
+      updateChart();
+    })
+    .catch((error) => {
+      console.error(`Ошибка загрузки JSON для ${dataType}:`, error);
+      errorMessage.textContent = `Ошибка загрузки данных для ${
+        dataType === "main" ? "основных доменов" : "остальных доменов"
+      }. Проверьте файл ${jsonFile} или запустите через локальный сервер (например, python -m http.server).`;
+    });
+}
 
 function updateTargetSelect() {
   const targetSelect = document.getElementById("targetSelect");
@@ -174,7 +190,7 @@ function aggregateData(errorType, groupBy = "month", selectedTarget = "all") {
     if (labels.length === 0) {
       console.warn("Нет данных для отображения ошибок.");
       errorMessage.textContent =
-        "Нет данных для отображения. Проверьте log_results.json.";
+        "Нет данных для отображения. Проверьте соответствующий JSON файл.";
     } else {
       errorMessage.textContent = "";
     }
@@ -330,3 +346,6 @@ function updateChart() {
     },
   });
 }
+
+// Начальная загрузка данных
+loadData();

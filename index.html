@@ -1,128 +1,46 @@
-<script type="text/javascript">
-  var gk_isXlsx = false;
-  var gk_xlsxFileLookup = {};
-  var gk_fileData = {};
-  function filledCell(cell) {
-    return cell !== "" && cell != null;
-  }
-  function loadFileData(filename) {
-    if (gk_isXlsx && gk_xlsxFileLookup[filename]) {
-      try {
-        var workbook = XLSX.read(gk_fileData[filename], { type: "base64" });
-        var firstSheetName = workbook.SheetNames[0];
-        var worksheet = workbook.Sheets[firstSheetName];
-
-        // Convert sheet to JSON to filter blank rows
-        var jsonData = XLSX.utils.sheet_to_json(worksheet, {
-          header: 1,
-          blankrows: false,
-          defval: "",
-        });
-        // Filter out blank rows (rows where all cells are empty, null, or undefined)
-        var filteredData = jsonData.filter((row) => row.some(filledCell));
-
-        // Heuristic to find the header row by ignoring rows with fewer filled cells than the next row
-        var headerRowIndex = filteredData.findIndex(
-          (row, index) =>
-            row.filter(filledCell).length >=
-            filteredData[index + 1]?.filter(filledCell).length
-        );
-        // Fallback
-        if (headerRowIndex === -1 || headerRowIndex > 25) {
-          headerRowIndex = 0;
-        }
-
-        // Convert filtered JSON back to CSV
-        var csv = XLSX.utils.aoa_to_sheet(filteredData.slice(headerRowIndex)); // Create a new sheet from filtered array of arrays
-        csv = XLSX.utils.sheet_to_csv(csv, { header: 1 });
-        return csv;
-      } catch (e) {
-        console.error(e);
-        return "";
-      }
-    }
-    return gk_fileData[filename] || "";
-  }
-</script>
 <!DOCTYPE html>
 <html lang="ru">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Визуализация ошибок</title>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/min/moment.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.30.1/moment.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <script src="https://telegram.org/js/telegram-web-app.js"></script>
-    <script>
-      window.addEventListener("DOMContentLoaded", function () {
-        Telegram.WebApp.ready();
-
-        const isTelegram = !!Telegram?.WebApp?.initDataUnsafe?.user;
-
-        // Если это Telegram WebApp — подгружаем разрешённые ID
-        if (isTelegram) {
-          fetch("telegram_subscribers.txt")
-            .then((response) => {
-              if (!response.ok)
-                throw new Error(
-                  "Не удалось загрузить список разрешённых пользователей"
-                );
-              return response.text();
-            })
-            .then((text) => {
-              const allowedUserIds = text
-                .split("\n")
-                .map((id) => id.trim())
-                .filter((id) => id !== "");
-
-              const userId =
-                Telegram.WebApp.initDataUnsafe.user?.id?.toString();
-
-              if (!allowedUserIds.includes(userId)) {
-                document.body.innerHTML = `<h2 style="text-align:center; margin-top:50px;">Подпишитесь на бота, чтобы получить доступ</h2>`;
-              }
-
-              console.log("✅ Пользователь разрешён:", userId);
-            })
-            .catch((err) => {
-              console.error("Ошибка при проверке доступа:", err);
-              document.body.innerHTML = `<h2 style="text-align:center; margin-top:50px;">Подпишитесь на бота, чтобы получить доступ</h2>`;
-            });
-        } else {
-          console.log("⚠️ Не Telegram WebApp — прямой доступ разрешён");
-        }
-      });
-    </script>
     <div class="container">
       <h1>Визуализация ошибок</h1>
+      <div id="errorMessage"></div>
       <div class="select-container">
+        <label for="dataType">Тип данных:</label>
+        <select id="dataType" onchange="loadData()">
+          <option value="main">Основные домены</option>
+          <option value="clone">Домены клонов</option>
+        </select>
+
+        <label for="errorType">Все ошибки:</label>
         <select id="errorType" onchange="updateChart()">
           <option value="all">Все ошибки</option>
           <option value="медленный ответ">Медленный ответ</option>
           <option value="не дождался ответа">Не дождался ответа</option>
           <option value="недоступен">Недоступен</option>
         </select>
-        <select id="targetSelect" onchange="updateChart()">
-          <option value="all">Все домены</option>
-          <!-- Опции будут добавлены динамически -->
-        </select>
-        <select id="zoneSelect" onchange="updateChart()">
-          <option value="all">Все зоны</option>
-          <!-- Опции добавятся динамически -->
-        </select>
+
+        <label for="targetSelect">Все домены:</label>
+        <select id="targetSelect" onchange="updateChart()"></select>
+
+        <label for="zoneSelect">Все зоны:</label>
+        <select id="zoneSelect" onchange="updateChart()"></select>
+
+        <label for="groupBy">По месяцам:</label>
         <select id="groupBy" onchange="updateChart()">
           <option value="month">По месяцам</option>
           <option value="week">По неделям</option>
           <option value="day">По дням</option>
         </select>
       </div>
-      <div
-        id="errorMessage"
-        style="position: relative; width: 100%; color: red; text-align: center"
-      ></div>
+
       <div class="chart-wrapper">
         <canvas id="errorChart"></canvas>
       </div>

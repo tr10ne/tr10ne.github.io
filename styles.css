@@ -7,7 +7,8 @@ body {
 }
 
 .container {
-  max-width: 800px;
+  max-width: 100vw;
+  max-height: 100vh;
   margin: 0 auto;
   background: white;
   padding: 20px;
@@ -24,15 +25,20 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  align-items: center;
   gap: 10px;
   flex-wrap: wrap;
   margin-bottom: 20px;
 }
 
+label {
+  font-size: 14px;
+}
+
 select {
   margin: 5px;
   padding: 8px;
-  font-size: 16px;
+  font-size: 14px;
   border-radius: 4px;
   border: 1px solid #ccc;
   max-width: 280px;
@@ -52,7 +58,7 @@ canvas {
 .chart-wrapper {
   position: relative;
   width: 100%;
-  height: 400px; /* или 300px для мобильных */
+  height: 500px; /* или 300px для мобильных */
 }
 
 #errorChart {
@@ -72,6 +78,7 @@ canvas {
 
   .select-container {
     gap: 5px;
+    justify-content: space-between;
   }
 
   select {
@@ -82,7 +89,7 @@ canvas {
   }
 
   h1 {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .chart-wrapper {
