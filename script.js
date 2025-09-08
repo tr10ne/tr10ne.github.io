@@ -5,6 +5,10 @@ let allZones = [];
 
 const ctx = document.getElementById("errorChart").getContext("2d");
 const errorMessage = document.getElementById("errorMessage");
+const loader = document.getElementById("loader");
+
+// Установка локали Moment.js на русский
+moment.locale("ru");
 
 // Проверка наличия Moment.js
 if (typeof moment === "undefined") {
@@ -24,6 +28,14 @@ if (typeof Chart === "undefined") {
     "Ошибка: Chart.js не загружен. Проверьте интернет-соединение или скрипты в index.html.";
 }
 
+function showLoader() {
+  loader.style.display = "flex";
+}
+
+function hideLoader() {
+  loader.style.display = "none";
+}
+
 function extractZone(target) {
   const host = target.split("/")[0];
   const parts = host.split(".");
@@ -31,6 +43,7 @@ function extractZone(target) {
 }
 
 function loadData() {
+  showLoader();
   const dataType = document.getElementById("dataType").value;
   const jsonFile =
     dataType === "main" ? "log_results.json" : "log_results_clone.json";
@@ -63,6 +76,9 @@ function loadData() {
       errorMessage.textContent = `Ошибка загрузки данных для ${
         dataType === "main" ? "основных доменов" : "остальных доменов"
       }. Проверьте файл ${jsonFile} или запустите через локальный сервер (например, python -m http.server).`;
+    })
+    .finally(() => {
+      hideLoader();
     });
 }
 
@@ -103,7 +119,7 @@ function updateZoneSelect() {
 function getGroupedDate(date, groupBy) {
   switch (groupBy) {
     case "week":
-      return date.format("YYYY-[W]WW");
+      return date.format("YYYY-WW");
     case "day":
       return date.format("YYYY-MM-DD");
     case "month":
@@ -113,14 +129,20 @@ function getGroupedDate(date, groupBy) {
 }
 
 function getGroupLabel(groupBy, dateStr) {
+  let date;
   switch (groupBy) {
-    case "week":
-      return `Неделя ${dateStr.split("W")[1]}, ${dateStr.split("W")[0]}`;
-    case "day":
-      return dateStr;
     case "month":
+      date = moment(dateStr, "YYYY-MM");
+      return date.format("MMMM YYYY");
+    case "week":
+      const [year, week] = dateStr.split("-");
+      date = moment().year(year).week(week).startOf("week");
+      const endDate = date.clone().endOf("week");
+      return `${date.format("D")}-${endDate.format("D.MM.YY")}`;
+    case "day":
     default:
-      return dateStr;
+      date = moment(dateStr, "YYYY-MM-DD");
+      return date.format("DD.MM.YY");
   }
 }
 
@@ -257,6 +279,7 @@ function aggregateData(errorType, groupBy = "month", selectedTarget = "all") {
 }
 
 function updateChart() {
+  showLoader();
   const errorType = document.getElementById("errorType").value;
   const groupBy = document.getElementById("groupBy").value;
   const selectedTarget = document.getElementById("targetSelect").value;
@@ -312,6 +335,7 @@ function updateChart() {
       datasets: datasets,
     },
     options: {
+      indexAxis: groupBy === "month" ? "x" : "x", // Вертикальные столбцы для всех группировок
       responsive: true,
       maintainAspectRatio: false,
       scales: {
@@ -345,6 +369,7 @@ function updateChart() {
       },
     },
   });
+  hideLoader();
 }
 
 // Начальная загрузка данных

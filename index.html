@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Визуализация ошибок</title>
     <script src="https://cdn.jsdelivr.net/npm/moment@2.29.4/min/moment.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment/locale/ru.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.3/dist/chart.umd.min.js"></script>
     <link rel="stylesheet" href="styles.css" />
   </head>
@@ -42,6 +43,7 @@
       </div>
 
       <div class="chart-wrapper">
+        <div id="loader" class="loader">Загрузка...</div>
         <canvas id="errorChart"></canvas>
       </div>
     </div>
