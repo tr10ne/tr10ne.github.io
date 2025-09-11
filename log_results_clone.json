@@ -54865,6 +54865,4801 @@
     "status": "медленный ответ"
   },
   {
+    "timestamp": "2025-09-08T11:23:29",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:24:17",
+    "target": "metplast56.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:24:19",
+    "target": "metallprofil-uglich.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:24:21",
+    "target": "krovkomp-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:24:22",
+    "target": "kamensk-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:24:53",
+    "target": "metallprofil60.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:24:54",
+    "target": "490191.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:25:09",
+    "target": "stroybaza.online",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:25:10",
+    "target": "skk63.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:25:25",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:25:55",
+    "target": "ventadommp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:26:26",
+    "target": "24-smk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:26:26",
+    "target": "mpbsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:26:27",
+    "target": "metallprofil-kleck.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:27:57",
+    "target": "metallprofil36.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:29:13",
+    "target": "pp64.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:29:29",
+    "target": "krovlyasalsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:29:29",
+    "target": "metallprofil-prisma.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:29:30",
+    "target": "liderkrovlya.com",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:29:31",
+    "target": "ecm24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:29:51",
+    "target": "mettakrysha.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:30:06",
+    "target": "saratov-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:30:22",
+    "target": "grandkmir.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:30:23",
+    "target": "63dp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:30:24",
+    "target": "ckrov.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:30:26",
+    "target": "lider-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:30:42",
+    "target": "csm51-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:30:58",
+    "target": "metalprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:31:13",
+    "target": "profnastil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:31:14",
+    "target": "metallprofil-msk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:31:14",
+    "target": "krovla40.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:31:15",
+    "target": "krovlyacheb.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:31:15",
+    "target": "krovlia04.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:31:16",
+    "target": "ventasteel.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:31:54",
+    "target": "tdprom24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T11:32:15",
+    "target": "fsk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T11:32:25",
+    "target": "mpk-viking.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T11:43:17",
+    "target": "metplast56.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:44:10",
+    "target": "metallprofil-uglich.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:44:55",
+    "target": "krovkomp-mp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:45:40",
+    "target": "kamensk-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:25",
+    "target": "metallprofil60.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:41",
+    "target": "stroybaza.online",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:41",
+    "target": "skk63.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:42",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:42",
+    "target": "ventadommp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:42",
+    "target": "24-smk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:43",
+    "target": "mpbsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:43",
+    "target": "metallprofil-kleck.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:45",
+    "target": "metallprofil36.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:45",
+    "target": "pp64.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:46",
+    "target": "krovlyasalsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:46",
+    "target": "metallprofil-prisma.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:46",
+    "target": "liderkrovlya.com",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:46:47",
+    "target": "ecm24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:47:02",
+    "target": "mettakrysha.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:47:02",
+    "target": "saratov-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:47:03",
+    "target": "grandkmir.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:47:03",
+    "target": "63dp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:47:03",
+    "target": "ckrov.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:47:48",
+    "target": "lider-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:47:48",
+    "target": "csm51-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:49:04",
+    "target": "metalprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:49:04",
+    "target": "profnastil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:49:04",
+    "target": "metallprofil-msk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:49:35",
+    "target": "krovla40.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:49:35",
+    "target": "krovlyacheb.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:49:36",
+    "target": "krovlia04.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:49:36",
+    "target": "ventasteel.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:50:21",
+    "target": "tdprom24.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:51:06",
+    "target": "fsk-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:52:36",
+    "target": "mpk-viking.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:53:21",
+    "target": "mpberdsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:54:06",
+    "target": "profiltorg.site",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:54:36",
+    "target": "gibka-good.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:54:37",
+    "target": "omegaprofile.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:54:52",
+    "target": "metallprofil-lo.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:54:52",
+    "target": "ckf42.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:54:53",
+    "target": "metall55.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:55:08",
+    "target": "goldstroy38.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:55:09",
+    "target": "metallprofil33.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:55:54",
+    "target": "altay-stroy22.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:56:10",
+    "target": "snabmarket-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:56:10",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:56:10",
+    "target": "krovdom161.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T11:56:55",
+    "target": "metallprofil26.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:57:40",
+    "target": "metallprofil-vrn.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:58:25",
+    "target": "mpkursk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T11:59:55",
+    "target": "metrprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T12:00:43",
+    "target": "eurokrovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T12:01:07",
+    "target": "metallprofil12.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T12:01:18",
+    "target": "vsedlakrovli.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T12:01:34",
+    "target": "roofmetall.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T12:07:24",
+    "target": "roofmetall.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T12:22:21",
+    "target": "metallprofil-stavropol.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:22:22",
+    "target": "metplast56.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:22:22",
+    "target": "metallprofil-uglich.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:22:23",
+    "target": "krovkomp-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:23:08",
+    "target": "kamensk-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T12:23:08",
+    "target": "metallprofil60.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:23:08",
+    "target": "490191.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:23:09",
+    "target": "stroybaza.online",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:23:09",
+    "target": "skk63.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:23:24",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:24:09",
+    "target": "ventadommp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T12:25:09",
+    "target": "24-smk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:25:10",
+    "target": "mpbsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:25:10",
+    "target": "metallprofil-kleck.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:27:18",
+    "target": "metallprofil36.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T12:27:27",
+    "target": "pp64.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T12:43:14",
+    "target": "metallprofil-uglich.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T12:43:19",
+    "target": "krovkomp-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:03",
+    "target": "24-smk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:04",
+    "target": "mpbsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:09",
+    "target": "metallprofil36.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:09",
+    "target": "pp64.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:09",
+    "target": "krovlyasalsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:09",
+    "target": "metallprofil-prisma.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:25",
+    "target": "liderkrovlya.com",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:25",
+    "target": "ecm24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:26",
+    "target": "mettakrysha.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:26",
+    "target": "saratov-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:27",
+    "target": "grandkmir.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:27",
+    "target": "63dp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:27",
+    "target": "ckrov.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:27",
+    "target": "lider-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:27",
+    "target": "csm51-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:28",
+    "target": "metalprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:28",
+    "target": "profnastil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:28",
+    "target": "metallprofil-msk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:29",
+    "target": "krovla40.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:29",
+    "target": "krovlyacheb.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:29",
+    "target": "krovlia04.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:29",
+    "target": "ventasteel.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:30",
+    "target": "tdprom24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:30",
+    "target": "fsk-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:30",
+    "target": "mpk-viking.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:31",
+    "target": "mpberdsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:31",
+    "target": "profiltorg.site",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:31",
+    "target": "gibka-good.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:32",
+    "target": "omegaprofile.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:32",
+    "target": "metallprofil-lo.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:32",
+    "target": "ckf42.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:33",
+    "target": "metall55.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:33",
+    "target": "goldstroy38.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:33",
+    "target": "metallprofil33.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:34",
+    "target": "altay-stroy22.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:34",
+    "target": "snabmarket-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:35",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:35",
+    "target": "krovdom161.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:35",
+    "target": "metallprofil26.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:35",
+    "target": "metallprofil-vrn.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:36",
+    "target": "mpkursk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:36",
+    "target": "metrprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:37",
+    "target": "eurokrovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:37",
+    "target": "metallprofil12.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:37",
+    "target": "vsedlakrovli.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:38",
+    "target": "metall-kuban.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:38",
+    "target": "roofmetall.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:38",
+    "target": "chelny-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:38",
+    "target": "csm152.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:39",
+    "target": "bik18.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:39",
+    "target": "profilen163.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:39",
+    "target": "front-on.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:39",
+    "target": "topprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:40",
+    "target": "sun-roof.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T12:44:40",
+    "target": "zmkprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:03:11",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:04:34",
+    "target": "metplast56.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:04:49",
+    "target": "metallprofil-uglich.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:05:29",
+    "target": "krovkomp-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:06:06",
+    "target": "kamensk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:06:12",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:06:17",
+    "target": "490191.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:06:41",
+    "target": "skk63.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:07:02",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:07:21",
+    "target": "ventadommp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:07:50",
+    "target": "24-smk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:07:59",
+    "target": "mpbsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:08:59",
+    "target": "metallprofil-kleck.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:10:15",
+    "target": "metallprofil36.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:10:16",
+    "target": "pp64.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:11:01",
+    "target": "krovlyasalsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:11:46",
+    "target": "metallprofil-prisma.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:12:16",
+    "target": "liderkrovlya.com",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:12:16",
+    "target": "ecm24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:12:47",
+    "target": "mettakrysha.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:13:32",
+    "target": "saratov-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:17",
+    "target": "grandkmir.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:35",
+    "target": "63dp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:37",
+    "target": "ckrov.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:38",
+    "target": "lider-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:39",
+    "target": "csm51-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:40",
+    "target": "metalprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:42",
+    "target": "profnastil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:42",
+    "target": "metallprofil-msk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:43",
+    "target": "krovla40.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:44",
+    "target": "krovlyacheb.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:44",
+    "target": "krovlia04.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:14:45",
+    "target": "ventasteel.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:15:16",
+    "target": "tdprom24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:15:17",
+    "target": "fsk-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:16:02",
+    "target": "mpk-viking.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:16:34",
+    "target": "gibka-good.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:17:19",
+    "target": "omegaprofile.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:17:19",
+    "target": "metallprofil-lo.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:17:20",
+    "target": "ckf42.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:17:20",
+    "target": "metall55.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:17:21",
+    "target": "goldstroy38.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:17:21",
+    "target": "metallprofil33.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:18:06",
+    "target": "altay-stroy22.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:19:38",
+    "target": "snabmarket-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:19:47",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:20:32",
+    "target": "krovdom161.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:21:11",
+    "target": "metallprofil26.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:21:17",
+    "target": "metallprofil-vrn.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:21:39",
+    "target": "mpkursk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:21:57",
+    "target": "metrprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:22:52",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:23:22",
+    "target": "eurokrovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:23:55",
+    "target": "metplast56.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:24:00",
+    "target": "metallprofil12.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:24:16",
+    "target": "vsedlakrovli.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:24:25",
+    "target": "metallprofil-uglich.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:24:33",
+    "target": "krovkomp-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:24:39",
+    "target": "kamensk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:24:43",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:24:49",
+    "target": "490191.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:24:53",
+    "target": "stroybaza.online",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:25:02",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:25:07",
+    "target": "ventadommp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:42:49",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:43:19",
+    "target": "metplast56.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:43:20",
+    "target": "metallprofil-uglich.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:43:20",
+    "target": "krovkomp-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:44:05",
+    "target": "kamensk-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:44:50",
+    "target": "metallprofil60.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:45:35",
+    "target": "490191.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:46:20",
+    "target": "stroybaza.online",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:47:05",
+    "target": "skk63.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:47:21",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:47:23",
+    "target": "ventadommp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:48:53",
+    "target": "24-smk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:49:08",
+    "target": "mpbsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:49:09",
+    "target": "metallprofil-kleck.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:50:39",
+    "target": "metallprofil36.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:50:40",
+    "target": "pp64.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:50:40",
+    "target": "krovlyasalsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:50:40",
+    "target": "metallprofil-prisma.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T13:52:01",
+    "target": "liderkrovlya.com",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T13:52:47",
+    "target": "ecm24.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T13:54:09",
+    "target": "mettakrysha.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T14:22:31",
+    "target": "metallprofil-stavropol.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:22:32",
+    "target": "metplast56.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:22:32",
+    "target": "metallprofil-uglich.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:23:17",
+    "target": "krovkomp-mp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:24:02",
+    "target": "kamensk-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:24:47",
+    "target": "metallprofil60.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:25:03",
+    "target": "490191.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:25:03",
+    "target": "stroybaza.online",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:25:04",
+    "target": "skk63.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:25:04",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:25:05",
+    "target": "ventadommp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:25:06",
+    "target": "24-smk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:25:22",
+    "target": "mpbsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:25:22",
+    "target": "metallprofil-kleck.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:26:53",
+    "target": "metallprofil36.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:28:23",
+    "target": "pp64.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:29:08",
+    "target": "krovlyasalsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:29:53",
+    "target": "metallprofil-prisma.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:31:23",
+    "target": "liderkrovlya.com",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:32:08",
+    "target": "ecm24.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:33:00",
+    "target": "mettakrysha.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T14:33:08",
+    "target": "saratov-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T14:33:53",
+    "target": "grandkmir.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:34:03",
+    "target": "63dp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T14:34:09",
+    "target": "ckrov.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T14:35:31",
+    "target": "krovla40.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T14:37:09",
+    "target": "gibka-good.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:14",
+    "target": "ckf42.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:14",
+    "target": "metall55.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:15",
+    "target": "goldstroy38.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:15",
+    "target": "metallprofil33.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:15",
+    "target": "altay-stroy22.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:16",
+    "target": "snabmarket-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:16",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:16",
+    "target": "krovdom161.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:16",
+    "target": "metallprofil26.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:16",
+    "target": "metallprofil-vrn.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:16",
+    "target": "mpkursk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:17",
+    "target": "metrprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:17",
+    "target": "eurokrovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:17",
+    "target": "metallprofil12.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:17",
+    "target": "vsedlakrovli.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:18",
+    "target": "metall-kuban.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:18",
+    "target": "roofmetall.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:18",
+    "target": "chelny-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:18",
+    "target": "csm152.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:19",
+    "target": "bik18.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:19",
+    "target": "profilen163.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:19",
+    "target": "front-on.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:19",
+    "target": "topprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:20",
+    "target": "sun-roof.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:38:20",
+    "target": "zmkprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:43:36",
+    "target": "24-smk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:44:21",
+    "target": "mpbsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:45:51",
+    "target": "metallprofil-kleck.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:48:51",
+    "target": "metallprofil36.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:50:21",
+    "target": "pp64.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:51:06",
+    "target": "krovlyasalsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:51:51",
+    "target": "metallprofil-prisma.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:21",
+    "target": "liderkrovlya.com",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:28",
+    "target": "ecm24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:49",
+    "target": "profiltorg.site",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:50",
+    "target": "gibka-good.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:50",
+    "target": "omegaprofile.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:50",
+    "target": "metallprofil-lo.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:51",
+    "target": "ckf42.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:51",
+    "target": "metall55.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:51",
+    "target": "goldstroy38.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:51",
+    "target": "metallprofil33.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:52",
+    "target": "altay-stroy22.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:52",
+    "target": "snabmarket-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:53",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:53",
+    "target": "krovdom161.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:53",
+    "target": "metallprofil26.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:53",
+    "target": "metallprofil-vrn.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:53",
+    "target": "mpkursk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:53",
+    "target": "metrprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:54",
+    "target": "eurokrovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:54",
+    "target": "metallprofil12.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:54",
+    "target": "vsedlakrovli.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:55",
+    "target": "metall-kuban.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:55",
+    "target": "roofmetall.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:55",
+    "target": "chelny-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:56",
+    "target": "csm152.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:56",
+    "target": "bik18.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:56",
+    "target": "profilen163.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:56",
+    "target": "front-on.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:56",
+    "target": "topprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:57",
+    "target": "sun-roof.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T14:53:57",
+    "target": "zmkprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:03",
+    "target": "metallprofil-stavropol.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:03",
+    "target": "metplast56.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:04",
+    "target": "metallprofil-uglich.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:05",
+    "target": "kamensk-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:06",
+    "target": "metallprofil60.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:06",
+    "target": "490191.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:06",
+    "target": "stroybaza.online",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:06",
+    "target": "skk63.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:06",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:07",
+    "target": "ventadommp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:07",
+    "target": "24-smk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:07",
+    "target": "mpbsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:08",
+    "target": "metallprofil-kleck.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:08",
+    "target": "metallprofil36.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:09",
+    "target": "pp64.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:09",
+    "target": "krovlyasalsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:09",
+    "target": "metallprofil-prisma.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:10",
+    "target": "liderkrovlya.com",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:10",
+    "target": "ecm24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:10",
+    "target": "mettakrysha.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:11",
+    "target": "saratov-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:11",
+    "target": "grandkmir.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:11",
+    "target": "63dp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:11",
+    "target": "ckrov.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:12",
+    "target": "lider-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:12",
+    "target": "csm51-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:12",
+    "target": "metalprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:13",
+    "target": "profnastil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:13",
+    "target": "metallprofil-msk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:13",
+    "target": "krovla40.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:14",
+    "target": "krovlyacheb.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:14",
+    "target": "krovlia04.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:14",
+    "target": "ventasteel.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:14",
+    "target": "tdprom24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:15",
+    "target": "fsk-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:15",
+    "target": "mpk-viking.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:16",
+    "target": "profiltorg.site",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:16",
+    "target": "gibka-good.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:17",
+    "target": "omegaprofile.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:17",
+    "target": "metallprofil-lo.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:17",
+    "target": "ckf42.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:18",
+    "target": "metall55.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:18",
+    "target": "goldstroy38.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:18",
+    "target": "metallprofil33.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:18",
+    "target": "altay-stroy22.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:19",
+    "target": "snabmarket-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:19",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:20",
+    "target": "krovdom161.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:20",
+    "target": "metallprofil26.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:20",
+    "target": "metallprofil-vrn.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:20",
+    "target": "mpkursk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:20",
+    "target": "metrprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:21",
+    "target": "eurokrovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:21",
+    "target": "metallprofil12.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:21",
+    "target": "vsedlakrovli.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:22",
+    "target": "metall-kuban.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:22",
+    "target": "roofmetall.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:22",
+    "target": "chelny-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:23",
+    "target": "csm152.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:23",
+    "target": "bik18.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:23",
+    "target": "profilen163.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:23",
+    "target": "front-on.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:23",
+    "target": "topprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:24",
+    "target": "sun-roof.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:02:24",
+    "target": "zmkprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:14",
+    "target": "metallprofil-stavropol.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:15",
+    "target": "metplast56.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:15",
+    "target": "metallprofil-uglich.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:16",
+    "target": "kamensk-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:17",
+    "target": "metallprofil60.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:17",
+    "target": "490191.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:17",
+    "target": "stroybaza.online",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:17",
+    "target": "skk63.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:17",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:18",
+    "target": "ventadommp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:18",
+    "target": "24-smk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:18",
+    "target": "mpbsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:19",
+    "target": "metallprofil-kleck.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:19",
+    "target": "metallprofil36.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:20",
+    "target": "pp64.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:20",
+    "target": "krovlyasalsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:20",
+    "target": "metallprofil-prisma.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:20",
+    "target": "liderkrovlya.com",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:20",
+    "target": "ecm24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:21",
+    "target": "mettakrysha.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:21",
+    "target": "saratov-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:22",
+    "target": "grandkmir.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:22",
+    "target": "63dp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:22",
+    "target": "ckrov.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:23",
+    "target": "lider-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:23",
+    "target": "csm51-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:23",
+    "target": "metalprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:23",
+    "target": "profnastil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:24",
+    "target": "metallprofil-msk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:24",
+    "target": "krovla40.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:25",
+    "target": "krovlyacheb.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:25",
+    "target": "krovlia04.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:25",
+    "target": "ventasteel.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:25",
+    "target": "tdprom24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:26",
+    "target": "fsk-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:26",
+    "target": "mpk-viking.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:27",
+    "target": "profiltorg.site",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:27",
+    "target": "gibka-good.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:27",
+    "target": "omegaprofile.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:28",
+    "target": "metallprofil-lo.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:28",
+    "target": "ckf42.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:29",
+    "target": "metall55.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:29",
+    "target": "goldstroy38.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:29",
+    "target": "metallprofil33.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:30",
+    "target": "altay-stroy22.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:31",
+    "target": "snabmarket-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:31",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:31",
+    "target": "krovdom161.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:31",
+    "target": "metallprofil26.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:31",
+    "target": "metallprofil-vrn.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:32",
+    "target": "mpkursk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:32",
+    "target": "metrprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:33",
+    "target": "eurokrovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:33",
+    "target": "metallprofil12.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:33",
+    "target": "vsedlakrovli.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:34",
+    "target": "metall-kuban.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:34",
+    "target": "roofmetall.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:34",
+    "target": "chelny-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:35",
+    "target": "csm152.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:35",
+    "target": "bik18.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:35",
+    "target": "profilen163.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:35",
+    "target": "front-on.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:35",
+    "target": "topprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:37",
+    "target": "sun-roof.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:22:37",
+    "target": "zmkprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-08T15:43:18",
+    "target": "metallprofil-uglich.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:44:03",
+    "target": "krovkomp-mp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:44:48",
+    "target": "kamensk-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:45:33",
+    "target": "metallprofil60.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:46:18",
+    "target": "490191.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:47:03",
+    "target": "stroybaza.online",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:47:48",
+    "target": "skk63.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:48:33",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:49:18",
+    "target": "ventadommp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:50:48",
+    "target": "24-smk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:51:34",
+    "target": "mpbsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:53:04",
+    "target": "metallprofil-kleck.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T15:55:58",
+    "target": "metallprofil36.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T17:03:24",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T17:04:54",
+    "target": "metplast56.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T17:06:24",
+    "target": "metallprofil-uglich.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T17:07:00",
+    "target": "krovkomp-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T17:07:07",
+    "target": "kamensk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T17:07:13",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T17:07:18",
+    "target": "490191.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T17:07:23",
+    "target": "stroybaza.online",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T18:42:20",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T21:02:09",
+    "target": "metallprofil-stavropol.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T21:42:50",
+    "target": "metallprofil-uglich.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T21:43:24",
+    "target": "krovkomp-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T21:50:01",
+    "target": "krovlia04.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T21:50:06",
+    "target": "ventasteel.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T21:52:08",
+    "target": "omegaprofile.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T21:52:29",
+    "target": "metallprofil-lo.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T21:53:36",
+    "target": "ckf42.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T21:54:21",
+    "target": "metall55.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T21:55:51",
+    "target": "goldstroy38.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T21:56:36",
+    "target": "metallprofil33.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-08T22:42:33",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T22:42:38",
+    "target": "ventadommp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:02:11",
+    "target": "kamensk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:02:16",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:02:29",
+    "target": "mpbsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:02:47",
+    "target": "metallprofil36.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:03:15",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:03:20",
+    "target": "metalprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:03:28",
+    "target": "metallprofil-msk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:03:49",
+    "target": "profiltorg.site",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:04:06",
+    "target": "metall55.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:04:11",
+    "target": "goldstroy38.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:04:17",
+    "target": "metallprofil33.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:04:58",
+    "target": "chelny-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:05:05",
+    "target": "bik18.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:22:47",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:24:17",
+    "target": "metplast56.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:25:41",
+    "target": "metallprofil-uglich.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:26:26",
+    "target": "krovkomp-mp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:27:42",
+    "target": "24-smk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:28:27",
+    "target": "mpbsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:29:57",
+    "target": "metallprofil-kleck.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:32:21",
+    "target": "metallprofil36.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:33:51",
+    "target": "pp64.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:34:36",
+    "target": "krovlyasalsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:35:00",
+    "target": "metallprofil-prisma.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:36:09",
+    "target": "liderkrovlya.com",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:36:32",
+    "target": "ecm24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:38:11",
+    "target": "mettakrysha.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:38:56",
+    "target": "saratov-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:39:41",
+    "target": "grandkmir.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:40:29",
+    "target": "ckrov.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:41:19",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:41:25",
+    "target": "csm51-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:42:14",
+    "target": "metalprofil.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:45:56",
+    "target": "snabmarket-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:46:35",
+    "target": "snabmarket-mp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:46:41",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T05:46:50",
+    "target": "krovdom161.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:46:56",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:47:06",
+    "target": "krovdom161.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T05:47:35",
+    "target": "metallprofil26.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:22:49",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:24:19",
+    "target": "metplast56.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:25:49",
+    "target": "metallprofil-uglich.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:26:34",
+    "target": "krovkomp-mp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:27:19",
+    "target": "kamensk-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:28:05",
+    "target": "metallprofil60.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:28:50",
+    "target": "490191.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:29:35",
+    "target": "stroybaza.online",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:30:20",
+    "target": "skk63.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:31:05",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:31:50",
+    "target": "ventadommp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:33:20",
+    "target": "24-smk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:34:05",
+    "target": "mpbsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:35:35",
+    "target": "metallprofil-kleck.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:38:35",
+    "target": "metallprofil36.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:40:05",
+    "target": "pp64.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:40:50",
+    "target": "krovlyasalsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:41:35",
+    "target": "metallprofil-prisma.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T06:42:25",
+    "target": "metallprofil-stavropol.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T06:42:27",
+    "target": "liderkrovlya.com",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T06:42:49",
+    "target": "ecm24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T06:42:51",
+    "target": "metplast56.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T06:43:35",
+    "target": "saratov-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T06:43:36",
+    "target": "kamensk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T06:43:55",
+    "target": "grandkmir.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T06:43:59",
+    "target": "63dp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T06:45:06",
+    "target": "metalprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T06:45:25",
+    "target": "profnastil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:42:40",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:42:46",
+    "target": "490191.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:42:51",
+    "target": "stroybaza.online",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:43:44",
+    "target": "liderkrovlya.com",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:44:07",
+    "target": "ecm24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:46:22",
+    "target": "mettakrysha.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:47:07",
+    "target": "saratov-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:47:52",
+    "target": "grandkmir.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:48:37",
+    "target": "63dp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:49:22",
+    "target": "ckrov.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:50:52",
+    "target": "lider-krovlia.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:51:37",
+    "target": "csm51-mp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:53:07",
+    "target": "metalprofil.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:53:52",
+    "target": "profnastil.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:54:37",
+    "target": "metallprofil-msk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:56:07",
+    "target": "krovla40.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T07:56:39",
+    "target": "krovlyacheb.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:56:48",
+    "target": "krovlia04.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:56:52",
+    "target": "ventasteel.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:57:22",
+    "target": "tdprom24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:57:28",
+    "target": "fsk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:57:37",
+    "target": "mpk-viking.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:57:43",
+    "target": "mpberdsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:57:48",
+    "target": "profiltorg.site",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T07:58:15",
+    "target": "omegaprofile.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:22:50",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:24:21",
+    "target": "metplast56.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:25:51",
+    "target": "metallprofil-uglich.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:26:36",
+    "target": "krovkomp-mp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:27:21",
+    "target": "kamensk-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:28:06",
+    "target": "metallprofil60.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:28:51",
+    "target": "490191.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:29:36",
+    "target": "stroybaza.online",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:30:21",
+    "target": "skk63.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:31:06",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:31:51",
+    "target": "ventadommp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:33:21",
+    "target": "24-smk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T08:33:45",
+    "target": "mpbsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:33:58",
+    "target": "metallprofil36.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:34:14",
+    "target": "pp64.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:34:36",
+    "target": "krovlyasalsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:34:45",
+    "target": "metallprofil-prisma.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:35:20",
+    "target": "metalprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:35:41",
+    "target": "profnastil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:35:49",
+    "target": "metallprofil-msk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:36:29",
+    "target": "metallprofil33.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:36:44",
+    "target": "altay-stroy22.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:37:09",
+    "target": "snabmarket-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:37:13",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:37:45",
+    "target": "vsedlakrovli.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:38:19",
+    "target": "metall-kuban.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:38:34",
+    "target": "roofmetall.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:38:39",
+    "target": "chelny-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T08:38:43",
+    "target": "csm152.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T09:05:25",
+    "target": "mettakrysha.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T09:05:32",
+    "target": "saratov-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T09:10:13",
+    "target": "chelny-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T09:10:18",
+    "target": "csm152.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T09:22:47",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T09:23:13",
+    "target": "metplast56.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T09:23:30",
+    "target": "metallprofil-uglich.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T09:23:38",
+    "target": "krovkomp-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T09:23:45",
+    "target": "kamensk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T09:42:36",
+    "target": "metallprofil-prisma.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T09:42:45",
+    "target": "liderkrovlya.com",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T09:42:49",
+    "target": "ecm24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:02:58",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T10:03:37",
+    "target": "metplast56.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:04:20",
+    "target": "metallprofil-uglich.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:04:59",
+    "target": "kamensk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:05:07",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:05:14",
+    "target": "490191.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:05:20",
+    "target": "stroybaza.online",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:05:27",
+    "target": "skk63.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:07:15",
+    "target": "metallprofil36.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:09:13",
+    "target": "ckrov.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:11:09",
+    "target": "krovlyacheb.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:11:30",
+    "target": "krovlia04.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T11:03:47",
+    "target": "metallprofil33.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T11:04:29",
+    "target": "krovdom161.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T11:04:33",
+    "target": "metallprofil26.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T11:04:38",
+    "target": "metallprofil-vrn.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T11:04:51",
+    "target": "metrprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T11:05:18",
+    "target": "eurokrovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T11:05:26",
+    "target": "metallprofil12.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T11:05:41",
+    "target": "vsedlakrovli.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T11:06:34",
+    "target": "topprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T11:43:14",
+    "target": "metallprofil-prisma.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:05:41",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:07:11",
+    "target": "metplast56.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:07:43",
+    "target": "metallprofil-uglich.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:07:50",
+    "target": "krovkomp-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:07:59",
+    "target": "kamensk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:08:36",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:08:58",
+    "target": "490191.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:09:43",
+    "target": "stroybaza.online",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:10:28",
+    "target": "skk63.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:11:13",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:11:58",
+    "target": "ventadommp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:13:28",
+    "target": "24-smk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:14:13",
+    "target": "mpbsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:15:33",
+    "target": "metallprofil-kleck.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:16:08",
+    "target": "mettakrysha.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:16:13",
+    "target": "saratov-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:16:20",
+    "target": "grandkmir.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:16:25",
+    "target": "63dp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:16:53",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:23:42",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:26:10",
+    "target": "roofmetall.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:26:15",
+    "target": "chelny-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:26:23",
+    "target": "csm152.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:26:29",
+    "target": "bik18.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:26:36",
+    "target": "profilen163.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:26:45",
+    "target": "front-on.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:26:55",
+    "target": "topprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:27:06",
+    "target": "sun-roof.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:42:50",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:44:20",
+    "target": "metplast56.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:45:50",
+    "target": "metallprofil-uglich.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:46:35",
+    "target": "krovkomp-mp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:47:20",
+    "target": "kamensk-metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T12:47:59",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:48:05",
+    "target": "490191.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:48:11",
+    "target": "stroybaza.online",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:48:16",
+    "target": "skk63.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:48:20",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:48:27",
+    "target": "ventadommp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:48:37",
+    "target": "24-smk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:48:49",
+    "target": "metallprofil-kleck.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:51:18",
+    "target": "metallprofil36.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:52:05",
+    "target": "krovlyasalsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:52:54",
+    "target": "liderkrovlya.com",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:53:30",
+    "target": "mettakrysha.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:53:35",
+    "target": "saratov-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:53:41",
+    "target": "grandkmir.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:53:48",
+    "target": "63dp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:53:52",
+    "target": "ckrov.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:54:19",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:54:37",
+    "target": "profnastil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:54:41",
+    "target": "metallprofil-msk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:55:06",
+    "target": "krovla40.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:55:21",
+    "target": "krovlyacheb.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:55:29",
+    "target": "krovlia04.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:55:48",
+    "target": "tdprom24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:55:56",
+    "target": "fsk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:56:09",
+    "target": "mpk-viking.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:56:14",
+    "target": "mpberdsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:56:19",
+    "target": "profiltorg.site",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:56:30",
+    "target": "gibka-good.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:56:55",
+    "target": "metallprofil-lo.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:57:26",
+    "target": "ckf42.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:57:31",
+    "target": "metall55.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:58:13",
+    "target": "metallprofil33.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:58:43",
+    "target": "altay-stroy22.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:59:36",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:59:41",
+    "target": "krovdom161.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:59:46",
+    "target": "metallprofil26.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:00:08",
+    "target": "metallprofil-vrn.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:00:28",
+    "target": "mpkursk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:00:42",
+    "target": "metrprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:01:01",
+    "target": "metallprofil12.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:01:41",
+    "target": "vsedlakrovli.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:02:14",
+    "target": "metallprofil-stavropol.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:02:17",
+    "target": "metall-kuban.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:02:58",
+    "target": "metplast56.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:03:01",
+    "target": "roofmetall.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:03:15",
+    "target": "metallprofil-uglich.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:03:38",
+    "target": "chelny-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:03:46",
+    "target": "csm152.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:03:56",
+    "target": "kamensk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:04:02",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:04:07",
+    "target": "bik18.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:04:10",
+    "target": "490191.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:04:16",
+    "target": "profilen163.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:04:22",
+    "target": "front-on.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:04:33",
+    "target": "stroybaza.online",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:04:42",
+    "target": "skk63.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:05:02",
+    "target": "topprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:05:27",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:06:10",
+    "target": "sun-roof.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:06:12",
+    "target": "ventadommp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:06:32",
+    "target": "zmkprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:07:20",
+    "target": "24-smk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:07:25",
+    "target": "mpbsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:07:40",
+    "target": "metallprofil-kleck.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:08:08",
+    "target": "metallprofil36.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:08:34",
+    "target": "krovlyasalsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:08:39",
+    "target": "metallprofil-prisma.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:08:47",
+    "target": "liderkrovlya.com",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:09:13",
+    "target": "saratov-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:09:20",
+    "target": "grandkmir.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:09:25",
+    "target": "63dp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:09:32",
+    "target": "ckrov.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:09:44",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:09:54",
+    "target": "csm51-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:10:19",
+    "target": "metalprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:10:40",
+    "target": "profnastil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:11:16",
+    "target": "metallprofil-msk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:11:45",
+    "target": "krovla40.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:12:27",
+    "target": "krovlyacheb.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:13:05",
+    "target": "krovlia04.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:13:13",
+    "target": "ventasteel.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:14:00",
+    "target": "tdprom24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:14:05",
+    "target": "fsk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:14:35",
+    "target": "mpk-viking.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:14:43",
+    "target": "mpberdsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:14:50",
+    "target": "profiltorg.site",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:15:19",
+    "target": "gibka-good.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:15:58",
+    "target": "omegaprofile.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:16:36",
+    "target": "metallprofil-lo.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:17:30",
+    "target": "ckf42.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:18:50",
+    "target": "metallprofil33.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:19:21",
+    "target": "altay-stroy22.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:21:11",
+    "target": "snabmarket-mp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:21:33",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:22:18",
+    "target": "krovdom161.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:22:46",
+    "target": "metallprofil-stavropol.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:23:03",
+    "target": "metallprofil26.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:23:13",
+    "target": "metallprofil-vrn.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:23:37",
+    "target": "mpkursk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:24:05",
+    "target": "metrprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:24:07",
+    "target": "metplast56.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:24:25",
+    "target": "metallprofil-uglich.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:24:37",
+    "target": "eurokrovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:24:43",
+    "target": "metallprofil12.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:24:47",
+    "target": "krovkomp-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:24:56",
+    "target": "kamensk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:25:33",
+    "target": "metallprofil60.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:25:36",
+    "target": "vsedlakrovli.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:25:39",
+    "target": "490191.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:26:42",
+    "target": "skk63.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:26:50",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:26:55",
+    "target": "metall-kuban.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:27:35",
+    "target": "ventadommp.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:28:03",
+    "target": "roofmetall.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:28:11",
+    "target": "chelny-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:28:43",
+    "target": "24-smk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T13:28:56",
+    "target": "csm152.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:29:28",
+    "target": "mpbsk.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:29:41",
+    "target": "bik18.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:30:26",
+    "target": "profilen163.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:30:58",
+    "target": "metallprofil-kleck.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:31:11",
+    "target": "front-on.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:31:56",
+    "target": "topprofil.by",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:33:26",
+    "target": "sun-roof.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T13:33:45",
+    "target": "zmkprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T14:07:00",
+    "target": "vsedlakrovli.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T14:23:37",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T00:04:52",
+    "target": "ecm24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T02:03:36",
+    "target": "24-smk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T02:07:19",
+    "target": "topprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T02:27:38",
+    "target": "goldstroy38.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T02:42:26",
+    "target": "mpk-viking.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:02:17",
+    "target": "fsk-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:02:39",
+    "target": "front-on.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:22:22",
+    "target": "stroybaza.online",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:22:32",
+    "target": "ventadommp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:23:40",
+    "target": "metallprofil36.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:23:50",
+    "target": "krovlyasalsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:24:16",
+    "target": "liderkrovlya.com",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:24:25",
+    "target": "ecm24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:25:01",
+    "target": "grandkmir.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:25:11",
+    "target": "ckrov.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:25:37",
+    "target": "metalprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:25:47",
+    "target": "profnastil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:26:23",
+    "target": "krovlyacheb.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:26:43",
+    "target": "tdprom24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:26:55",
+    "target": "profiltorg.site",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:27:21",
+    "target": "omegaprofile.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:27:47",
+    "target": "metall55.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:28:28",
+    "target": "altay-stroy22.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:28:53",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:30:17",
+    "target": "metall-kuban.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:31:39",
+    "target": "topprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T03:43:04",
+    "target": "mpk-viking.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T04:27:02",
+    "target": "ecm24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T04:29:57",
+    "target": "krovlia04.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T04:30:40",
+    "target": "profiltorg.site",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T04:32:08",
+    "target": "goldstroy38.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T04:32:34",
+    "target": "altay-stroy22.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T04:34:14",
+    "target": "metall-kuban.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T06:22:11",
+    "target": "metplast56.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T06:23:39",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T06:24:14",
+    "target": "24-smk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T06:24:49",
+    "target": "metallprofil-kleck.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T06:34:53",
+    "target": "topprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T07:50:54",
+    "target": "metallprofil-vrn.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T08:43:26",
+    "target": "stroybaza.online",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T08:48:48",
+    "target": "metalprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T08:50:00",
+    "target": "krovlia04.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T10:24:28",
+    "target": "mpberdsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T10:52:44",
+    "target": "tdprom24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T10:55:17",
+    "target": "altay-stroy22.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T10:55:42",
+    "target": "snabmarket-mp.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T18:03:38",
+    "target": "24-smk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T20:25:33",
+    "target": "ecm24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T20:27:42",
+    "target": "vsedlakrovli.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T20:42:40",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T21:28:23",
+    "target": "krovlia04.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T21:42:27",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T00:02:50",
+    "target": "mpberdsk.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:56",
+    "target": "kamensk-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:56",
+    "target": "metallprofil60.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:56",
+    "target": "490191.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:56",
+    "target": "stroybaza.online",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:57",
+    "target": "skk63.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:57",
+    "target": "krovlya-fasady-zabory.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:57",
+    "target": "ventadommp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:57",
+    "target": "24-smk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:57",
+    "target": "mpbsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:57",
+    "target": "metallprofil-kleck.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:58",
+    "target": "metallprofil36.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:58",
+    "target": "pp64.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:58",
+    "target": "krovlyasalsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:58",
+    "target": "metallprofil-prisma.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:58",
+    "target": "liderkrovlya.com",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:58",
+    "target": "ecm24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:58",
+    "target": "mettakrysha.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:59",
+    "target": "saratov-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:59",
+    "target": "grandkmir.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:59",
+    "target": "63dp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:59",
+    "target": "ckrov.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:59",
+    "target": "lider-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:59",
+    "target": "csm51-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:01:59",
+    "target": "metalprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:00",
+    "target": "profnastil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:00",
+    "target": "metallprofil-msk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:00",
+    "target": "krovla40.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:00",
+    "target": "krovlyacheb.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:00",
+    "target": "krovlia04.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:00",
+    "target": "ventasteel.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:01",
+    "target": "tdprom24.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:01",
+    "target": "fsk-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:01",
+    "target": "mpk-viking.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:01",
+    "target": "mpberdsk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:01",
+    "target": "profiltorg.site",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:01",
+    "target": "gibka-good.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:01",
+    "target": "omegaprofile.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:02",
+    "target": "metallprofil-lo.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:02",
+    "target": "ckf42.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:02",
+    "target": "metall55.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:02",
+    "target": "goldstroy38.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:02",
+    "target": "metallprofil33.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:02",
+    "target": "altay-stroy22.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:03",
+    "target": "snabmarket-mp.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:03",
+    "target": "stroybutik-metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:03",
+    "target": "krovdom161.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:03",
+    "target": "metallprofil26.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:03",
+    "target": "metallprofil-vrn.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:03",
+    "target": "mpkursk.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:03",
+    "target": "metrprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:04",
+    "target": "eurokrovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:04",
+    "target": "metallprofil12.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:04",
+    "target": "vsedlakrovli.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:04",
+    "target": "metall-kuban.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:04",
+    "target": "roofmetall.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:04",
+    "target": "chelny-krovlia.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:04",
+    "target": "csm152.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:04",
+    "target": "bik18.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:05",
+    "target": "profilen163.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:05",
+    "target": "front-on.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:05",
+    "target": "topprofil.by",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:05",
+    "target": "sun-roof.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:02:05",
+    "target": "zmkprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-11T03:29:07",
+    "target": "vsedlakrovli.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T04:27:31",
+    "target": "tdprom24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T05:02:39",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T05:29:06",
+    "target": "goldstroy38.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T05:30:09",
+    "target": "vsedlakrovli.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T06:44:20",
+    "target": "ecm24.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T06:45:22",
+    "target": "krovlia04.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T06:45:39",
+    "target": "metall55.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T06:45:49",
+    "target": "goldstroy38.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T06:45:59",
+    "target": "metallprofil33.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T06:47:50",
+    "target": "topprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T07:48:55",
+    "target": "gibka-good.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T07:49:55",
+    "target": "altay-stroy22.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T11:08:44",
+    "target": "profiltorg.site",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T11:09:58",
+    "target": "goldstroy38.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T11:10:24",
+    "target": "altay-stroy22.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T11:42:44",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T12:43:08",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T13:43:05",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T14:42:51",
+    "target": "lider-krovlia.ru",
+    "status": "медленный ответ"
+  },
+  {
     "timestamp": "2025-04-01T12:03:44",
     "target": "profilen163.ru",
     "status": "медленный ответ"

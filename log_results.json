@@ -54260,6 +54260,886 @@
     "status": "медленный ответ"
   },
   {
+    "timestamp": "2025-09-08T11:22:07",
+    "target": "belgorod.metallprofil.ru/shop",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T11:22:12",
+    "target": "belovo.metallprofil.ru/shop",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T11:22:17",
+    "target": "biysk.metallprofil.ru/shop",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T11:22:27",
+    "target": "anadir.metallprofil.ru/shop",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T20:20:55",
+    "target": "metallprofil.by",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-08T23:01:14",
+    "target": "metallprofil.tj",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T10:43:52",
+    "target": "ulyanovsk.metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T10:44:37",
+    "target": "ulan-ude.metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T10:45:23",
+    "target": "ufa.metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T10:46:25",
+    "target": "tomsk.metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T10:47:28",
+    "target": "smolensk.metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T10:48:44",
+    "target": "sevastopol.metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T10:50:16",
+    "target": "ryazan.metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:02",
+    "target": "pskov.metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:47",
+    "target": "petrozavodsk.metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:47",
+    "target": "perm.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:47",
+    "target": "penza.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:47",
+    "target": "orenburg.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:47",
+    "target": "orel.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:48",
+    "target": "obninsk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:48",
+    "target": "novosibirsk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:48",
+    "target": "novorossiisk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:48",
+    "target": "novokuzneck.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:48",
+    "target": "nalchik.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:48",
+    "target": "nizhnij-novgorod.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:48",
+    "target": "naberezhnye-chelny.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:48",
+    "target": "murmansk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:48",
+    "target": "mineralnye-vody.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:49",
+    "target": "metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:49",
+    "target": "mahachkala.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:49",
+    "target": "magnitogorsk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:49",
+    "target": "magas.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:49",
+    "target": "magadan.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "kursk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "lipeck.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "kurgan.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "krasnoyarsk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "krasnodar.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "kostroma.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "kizil.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "kirov.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "kemerovo.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "kazan.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "kaluga.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "kaliningrad.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:50",
+    "target": "izhevsk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:51",
+    "target": "ivanovo.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:51",
+    "target": "irkutsk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:51",
+    "target": "habarovsk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:51",
+    "target": "grozny.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:51",
+    "target": "gorno-altaisk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:51",
+    "target": "elista.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:52",
+    "target": "chita.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:52",
+    "target": "cherkessk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:52",
+    "target": "cherepovets.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:53",
+    "target": "cheboksari.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:53",
+    "target": "bryansk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:53",
+    "target": "blagoveshensk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:53",
+    "target": "biysk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:53",
+    "target": "belovo.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:53",
+    "target": "barnaul.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:54",
+    "target": "astrahan.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:54",
+    "target": "arhangelsk.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:54",
+    "target": "anadir.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:51:54",
+    "target": "abakan.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:00",
+    "target": "metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:00",
+    "target": "karaganda.metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:00",
+    "target": "kostanay.metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:00",
+    "target": "kyzylorda.metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:00",
+    "target": "pavlodar.metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:00",
+    "target": "shimkent.metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:00",
+    "target": "ust-kamenogorsk.metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:01",
+    "target": "aktau.metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:01",
+    "target": "aktobe.metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:01",
+    "target": "almaty.metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:01",
+    "target": "atirau.metallprofil.kz",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:01",
+    "target": "metallprofil.kg",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:02",
+    "target": "metallprofil.tj",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:02",
+    "target": "yoshkar-ola.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:02",
+    "target": "yakutsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:02",
+    "target": "voronezh.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:02",
+    "target": "yaroslavl.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:03",
+    "target": "vladimir.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:03",
+    "target": "volgograd.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:03",
+    "target": "vologda.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:04",
+    "target": "ulyanovsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:04",
+    "target": "velikiy-novgorod.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:04",
+    "target": "vladikavkaz.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:04",
+    "target": "ujno-sahalinsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:04",
+    "target": "ust-kamenogorsk.metallprofil.kz/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:05",
+    "target": "ufa.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:05",
+    "target": "tula.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:05",
+    "target": "tomsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:05",
+    "target": "tambov.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:05",
+    "target": "tbilisi.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:06",
+    "target": "surgut.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:06",
+    "target": "spb.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:06",
+    "target": "smolensk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:06",
+    "target": "stavropol.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:07",
+    "target": "suhum.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:07",
+    "target": "sochi.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:07",
+    "target": "simferopol.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:07",
+    "target": "siktivkar.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:07",
+    "target": "shimkent.metallprofil.kz/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:07",
+    "target": "saratov.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:07",
+    "target": "saransk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:07",
+    "target": "samara.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:07",
+    "target": "salehard.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:08",
+    "target": "ryazan.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:08",
+    "target": "pavlodar.metallprofil.kz/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:08",
+    "target": "petrozavodsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:08",
+    "target": "perm.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:08",
+    "target": "orel.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:08",
+    "target": "omsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:08",
+    "target": "orenburg.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:08",
+    "target": "novosibirsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:09",
+    "target": "penza.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:09",
+    "target": "nizhnij-novgorod.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:10",
+    "target": "mineralnye-vody.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:10",
+    "target": "nalchik.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:10",
+    "target": "metallprofil.tj/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:11",
+    "target": "metallprofil.uz/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:11",
+    "target": "metallprofil.kg/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:11",
+    "target": "naberezhnye-chelny.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:14",
+    "target": "maikop.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:14",
+    "target": "lipeck.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:14",
+    "target": "kyzylorda.metallprofil.kz/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:14",
+    "target": "kursk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:15",
+    "target": "magnitogorsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:16",
+    "target": "magadan.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:17",
+    "target": "kizil.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:17",
+    "target": "krasnoyarsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:18",
+    "target": "kostroma.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:18",
+    "target": "kazan.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:18",
+    "target": "kostanay.metallprofil.kz/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:18",
+    "target": "kaluga.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:18",
+    "target": "karaganda.metallprofil.kz/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:19",
+    "target": "izhevsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:19",
+    "target": "kaliningrad.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:19",
+    "target": "grozny.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:19",
+    "target": "habarovsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:19",
+    "target": "gorno-altaisk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:20",
+    "target": "gagra.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:20",
+    "target": "chelyabinsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:21",
+    "target": "chita.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:22",
+    "target": "bryansk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:23",
+    "target": "belgorod.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:23",
+    "target": "belovo.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:24",
+    "target": "blagoveshensk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:24",
+    "target": "baku.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:25",
+    "target": "barnaul.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:25",
+    "target": "anadir.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:25",
+    "target": "arhangelsk.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:26",
+    "target": "astrahan.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:27",
+    "target": "abakan.metallprofil.ru/shop",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T10:52:27",
+    "target": "stroyprosto.metallprofil.ru",
+    "status": "недоступен"
+  },
+  {
+    "timestamp": "2025-09-09T11:01:59",
+    "target": "kostanay.metallprofil.kz/shop",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:01:26",
+    "target": "metallprofil.tj",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:01:32",
+    "target": "yoshkar-ola.metallprofil.ru/shop",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:03:14",
+    "target": "habarovsk.metallprofil.ru/shop",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:03:18",
+    "target": "gorno-altaisk.metallprofil.ru/shop",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:03:25",
+    "target": "hanti-mansiisk.metallprofil.ru/shop",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T12:04:10",
+    "target": "elista.metallprofil.ru/shop",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T15:05:21",
+    "target": "metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T15:05:30",
+    "target": "metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T15:05:35",
+    "target": "metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T15:22:19",
+    "target": "shimkent.metallprofil.kz/shop",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T15:31:05",
+    "target": "metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T15:31:33",
+    "target": "metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T15:40:33",
+    "target": "novosibirsk.metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T15:40:39",
+    "target": "nalchik.metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T15:40:48",
+    "target": "nizhnij-novgorod.metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-09T15:42:08",
+    "target": "kursk.metallprofil.ru",
+    "status": "не дождался ответа"
+  },
+  {
+    "timestamp": "2025-09-09T15:42:14",
+    "target": "lipeck.metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-10T07:02:47",
+    "target": "stroyprosto.metallprofil.ru",
+    "status": "медленный ответ"
+  },
+  {
+    "timestamp": "2025-09-11T09:41:14",
+    "target": "metallprofil.tj",
+    "status": "медленный ответ"
+  },
+  {
     "timestamp": "2025-04-01T12:01:43",
     "target": "metallprofil.by",
     "status": "медленный ответ"
