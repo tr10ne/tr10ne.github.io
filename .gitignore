@@ -1,4 +1,4 @@
 /logs
-/backup
+/backup*
 /debug_log.txt
 /parseLogs.py

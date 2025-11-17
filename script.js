@@ -29,11 +29,11 @@ if (typeof Chart === "undefined") {
 }
 
 function showLoader() {
-  loader.style.display = "flex";
+  if (loader) loader.style.display = "flex";
 }
 
 function hideLoader() {
-  loader.style.display = "none";
+  if (loader) loader.style.display = "none";
 }
 
 function extractZone(target) {
@@ -42,8 +42,39 @@ function extractZone(target) {
   return parts.length > 1 ? "." + parts[parts.length - 1].toLowerCase() : "";
 }
 
+// Получение значений диапазона дат из инпутов
+function getDateRange() {
+  const startInput = document.getElementById("startDate");
+  const endInput = document.getElementById("endDate");
+
+  const startValue =
+    startInput && startInput.value
+      ? moment(startInput.value, "YYYY-MM-DD").startOf("day")
+      : null;
+  const endValue =
+    endInput && endInput.value
+      ? moment(endInput.value, "YYYY-MM-DD").endOf("day")
+      : null;
+
+  return { startValue, endValue };
+}
+
+/**
+ * Универсальный обработчик любого изменения параметров.
+ * Если нужно перезагрузить JSON (смена main/clone) — ставим флаг reloadData = true.
+ */
+function onParamsChange(reloadData = false) {
+  if (reloadData) {
+    // смена main/clone — нужно перезагрузить JSON
+    loadData();
+  } else {
+    // просто перерисовать график по уже загруженным данным
+    updateChart();
+  }
+}
+
 function loadData() {
-  showLoader();
+  showLoader(); // ← включаем лоадер строго тут
   const dataType = document.getElementById("dataType").value;
   const jsonFile =
     dataType === "main" ? "log_results.json" : "log_results_clone.json";
@@ -69,6 +100,28 @@ function loadData() {
 
       updateTargetSelect();
       updateZoneSelect();
+
+      // Автоопределение min/max дат по данным
+      if (chartData.length > 0) {
+        const timestamps = chartData
+          .map((e) => moment(e.timestamp, moment.ISO_8601))
+          .filter((m) => m.isValid())
+          .sort((a, b) => a - b);
+
+        if (timestamps.length > 0) {
+          const minDate = timestamps[0].format("YYYY-MM-DD");
+          const maxDate =
+            timestamps[timestamps.length - 1].format("YYYY-MM-DD");
+
+          const startInput = document.getElementById("startDate");
+          const endInput = document.getElementById("endDate");
+
+          if (startInput && !startInput.value) startInput.value = minDate;
+          if (endInput && !endInput.value) endInput.value = maxDate;
+        }
+      }
+
+      // после загрузки данных перерисуем график (он сам покажет/спрячет лоадер)
       updateChart();
     })
     .catch((error) => {
@@ -76,8 +129,6 @@ function loadData() {
       errorMessage.textContent = `Ошибка загрузки данных для ${
         dataType === "main" ? "основных доменов" : "остальных доменов"
       }. Проверьте файл ${jsonFile} или запустите через локальный сервер (например, python -m http.server).`;
-    })
-    .finally(() => {
       hideLoader();
     });
 }
@@ -155,12 +206,21 @@ function aggregateData(errorType, groupBy = "month", selectedTarget = "all") {
     return { labels: [], datasets: [] };
   }
 
+  const { startValue, endValue } = getDateRange();
+
   const filteredData = chartData.filter((entry) => {
     const byTarget =
       selectedTarget === "all" || entry.target === selectedTarget;
     const byZone =
       selectedZone === "all" || extractZone(entry.target) === selectedZone;
-    return byTarget && byZone;
+
+    const date = moment(entry.timestamp, moment.ISO_8601);
+    if (!date.isValid()) return false;
+
+    const byStart = startValue ? date.isSameOrAfter(startValue) : true;
+    const byEnd = endValue ? date.isSameOrBefore(endValue) : true;
+
+    return byTarget && byZone && byStart && byEnd;
   });
 
   if (errorType === "all") {
@@ -212,7 +272,7 @@ function aggregateData(errorType, groupBy = "month", selectedTarget = "all") {
     if (labels.length === 0) {
       console.warn("Нет данных для отображения ошибок.");
       errorMessage.textContent =
-        "Нет данных для отображения. Проверьте соответствующий JSON файл.";
+        "Нет данных для отображения. Проверьте соответствующий JSON файл или диапазон дат.";
     } else {
       errorMessage.textContent = "";
     }
@@ -245,7 +305,7 @@ function aggregateData(errorType, groupBy = "month", selectedTarget = "all") {
 
     if (labels.length === 0) {
       console.warn(`Нет данных для типа ошибки: ${errorType}`);
-      errorMessage.textContent = `Нет данных для "${errorType}". Попробуйте другой тип ошибки.`;
+      errorMessage.textContent = `Нет данных для "${errorType}". Проверьте диапазон дат или попробуйте другой тип ошибки.`;
     } else {
       errorMessage.textContent = "";
     }
@@ -279,98 +339,106 @@ function aggregateData(errorType, groupBy = "month", selectedTarget = "all") {
 }
 
 function updateChart() {
+  // включаем лоадер поверх графика
   showLoader();
-  const errorType = document.getElementById("errorType").value;
-  const groupBy = document.getElementById("groupBy").value;
-  const selectedTarget = document.getElementById("targetSelect").value;
-  const selectedZone = document.getElementById("zoneSelect").value;
 
-  console.log(
-    `Обновление графика: ошибка=${errorType}, группировка=${groupBy}, target=${selectedTarget}, зона=${selectedZone}`
-  );
+  // даём браузеру возможность отрисовать лоадер и новые значения инпутов/селектов
+  setTimeout(() => {
+    const errorType = document.getElementById("errorType").value;
+    const groupBy = document.getElementById("groupBy").value;
+    const selectedTarget = document.getElementById("targetSelect").value;
+    const selectedZone = document.getElementById("zoneSelect").value;
 
-  const { labels, datasets } = aggregateData(
-    errorType,
-    groupBy,
-    selectedTarget
-  );
+    console.log(
+      `Обновление графика: ошибка=${errorType}, группировка=${groupBy}, target=${selectedTarget}, зона=${selectedZone}`
+    );
 
-  if (chart) {
-    chart.destroy();
-  }
+    const { labels, datasets } = aggregateData(
+      errorType,
+      groupBy,
+      selectedTarget
+    );
 
-  const canvas = document.getElementById("errorChart");
-  canvas.removeAttribute("width");
-  canvas.removeAttribute("height");
-  canvas.style.width = "100%";
-  canvas.style.height = "100%";
+    if (chart) {
+      chart.destroy();
+    }
 
-  let titleText;
-  if (errorType === "all") {
-    titleText = `Количество всех ошибок ${
-      selectedTarget === "all" ? "" : `для ${selectedTarget}`
+    const canvas = document.getElementById("errorChart");
+    canvas.removeAttribute("width");
+    canvas.removeAttribute("height");
+    canvas.style.width = "100%";
+    canvas.style.height = "100%";
+
+    let titleText;
+    if (errorType === "all") {
+      titleText = `Количество всех ошибок ${
+        selectedTarget === "all" ? "" : `для ${selectedTarget}`
+      }`;
+    } else {
+      titleText = `Количество ошибок "${errorType}" ${
+        selectedTarget === "all" ? "" : `для ${selectedTarget}`
+      }`;
+    }
+
+    if (selectedZone !== "all") {
+      titleText += ` (зона ${selectedZone})`;
+    }
+
+    titleText += ` ${
+      groupBy === "month"
+        ? "по месяцам"
+        : groupBy === "week"
+        ? "по неделям"
+        : "по дням"
     }`;
-  } else {
-    titleText = `Количество ошибок "${errorType}" ${
-      selectedTarget === "all" ? "" : `для ${selectedTarget}`
-    }`;
-  }
 
-  if (selectedZone !== "all") {
-    titleText += ` (зона ${selectedZone})`;
-  }
-
-  titleText += ` ${
-    groupBy === "month"
-      ? "по месяцам"
-      : groupBy === "week"
-      ? "по неделям"
-      : "по дням"
-  }`;
-
-  chart = new Chart(ctx, {
-    type: "bar",
-    data: {
-      labels: labels,
-      datasets: datasets,
-    },
-    options: {
-      indexAxis: groupBy === "month" ? "x" : "x", // Вертикальные столбцы для всех группировок
-      responsive: true,
-      maintainAspectRatio: false,
-      scales: {
-        x: {
-          title: {
-            display: true,
-            text:
-              groupBy === "month"
-                ? "Месяц"
-                : groupBy === "week"
-                ? "Неделя"
-                : "День",
+    chart = new Chart(ctx, {
+      type: "bar",
+      data: {
+        labels: labels,
+        datasets: datasets,
+      },
+      options: {
+        indexAxis: "x",
+        responsive: true,
+        maintainAspectRatio: false,
+        scales: {
+          x: {
+            title: {
+              display: true,
+              text:
+                groupBy === "month"
+                  ? "Месяц"
+                  : groupBy === "week"
+                  ? "Неделя"
+                  : "День",
+            },
+          },
+          y: {
+            beginAtZero: true,
+            title: {
+              display: true,
+              text: "Количество ошибок",
+            },
           },
         },
-        y: {
-          beginAtZero: true,
+        plugins: {
+          legend: {
+            position: "bottom",
+          },
           title: {
             display: true,
-            text: "Количество ошибок",
+            text: titleText,
           },
         },
       },
-      plugins: {
-        legend: {
-          position: "bottom",
-        },
-        title: {
-          display: true,
-          text: titleText,
-        },
-      },
-    },
-  });
-  hideLoader();
+    });
+
+    // немного задержим скрытие, чтобы точно успело перерисоваться
+    setTimeout(hideLoader, 0);
+  }, 0);
 }
 
-// Начальная загрузка данных
+// Начальная загрузка данных (с лоадером)
+showLoader();
 loadData();

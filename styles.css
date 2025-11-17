@@ -69,6 +69,21 @@ canvas {
   height: 100% !important;
 }
 
+/* Диапазон дат */
+.date-range {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+}
+
+.date-range input[type="date"] {
+  padding: 4px;
+  font-size: 14px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+/* Лоадер */
 .loader {
   position: absolute;
   top: 0;
@@ -126,6 +141,15 @@ canvas {
     padding: 4px;
     font-size: 14px;
     min-width: 300px;
+  }
+
+  .date-range {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .date-range input[type="date"] {
+    width: 100%;
   }
 
   h1 {

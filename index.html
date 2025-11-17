@@ -13,29 +13,36 @@
     <div class="container">
       <h1>Визуализация ошибок</h1>
       <div id="errorMessage"></div>
+
       <div class="select-container">
-        <!-- <label for="dataType">Тип данных:</label> -->
-        <select id="dataType" onchange="loadData()">
+        <!-- Тип данных -->
+        <select id="dataType" onchange="onParamsChange(true)">
           <option value="main">Основные домены</option>
           <option value="clone">Домены клонов</option>
         </select>
 
-        <!-- <label for="errorType">Все ошибки:</label> -->
-        <select id="errorType" onchange="updateChart()">
+        <!-- Тип ошибки -->
+        <select id="errorType" onchange="onParamsChange()">
           <option value="all">Все ошибки</option>
           <option value="медленный ответ">Медленный ответ</option>
           <option value="не дождался ответа">Не дождался ответа</option>
           <option value="недоступен">Недоступен</option>
         </select>
 
-        <!-- <label for="targetSelect">Все домены:</label> -->
-        <select id="targetSelect" onchange="updateChart()"></select>
+        <!-- Домены -->
+        <select id="targetSelect" onchange="onParamsChange()"></select>
 
-        <!-- <label for="zoneSelect">Все зоны:</label> -->
-        <select id="zoneSelect" onchange="updateChart()"></select>
+        <!-- Зоны -->
+        <select id="zoneSelect" onchange="onParamsChange()"></select>
 
-        <!-- <label for="groupBy">По месяцам:</label> -->
-        <select id="groupBy" onchange="updateChart()">
+        <!-- Диапазон дат -->
+        <div class="date-range">
+          <input type="date" id="startDate" onchange="onParamsChange()" />
+          <input type="date" id="endDate" onchange="onParamsChange()" />
+        </div>
+
+        <!-- Группировка -->
+        <select id="groupBy" onchange="onParamsChange()">
           <option value="month">По месяцам</option>
           <option value="week">По неделям</option>
           <option value="day">По дням</option>
@@ -47,6 +54,7 @@
         <canvas id="errorChart"></canvas>
       </div>
     </div>
+
     <script src="script.js"></script>
   </body>
 </html>
