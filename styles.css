@@ -8,7 +8,7 @@ body {
 
 .container {
   max-width: 100vw;
-  max-height: 100vh;
+  /* max-height: 100vh; */
   margin: 0 auto;
   background: white;
   padding: 20px;
@@ -172,7 +172,6 @@ canvas {
 
   .link-to-desktop a {
     font-size: 12px;
-    color: azure;
-    text-decoration: dotted;
+    color: #7442c8;
   }
 }
