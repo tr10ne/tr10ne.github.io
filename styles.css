@@ -161,11 +161,18 @@ canvas {
   }
 
   .chart-wrapper {
-    height: 330px;
+    height: 350px;
   }
 
   .link-to-desktop {
     display: block;
-    
+    margin-top: 10px;
+    text-align: center;
+  }
+
+  .link-to-desktop a {
+    font-size: 12px;
+    color: azure;
+    text-decoration: dotted;
   }
 }
