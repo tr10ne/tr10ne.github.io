@@ -2,3 +2,4 @@
 /backup*
 /debug_log.txt
 /parseLogs.py
+/venv
